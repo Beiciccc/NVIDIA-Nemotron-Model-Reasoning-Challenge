@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.deps/
+data/
+external/
+runs/
+submissions/
+*.bin
+*.zip
+submission.csv
+submission_*.csv

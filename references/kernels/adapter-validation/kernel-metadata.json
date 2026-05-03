@@ -1,0 +1,30 @@
+{
+  "id": "huikang/adapter-validation-notebook",
+  "id_no": 113126826,
+  "title": "Adapter validation notebook",
+  "code_file": "adapter-validation-notebook.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": [
+    "metric/nvidia-metric-utility-script",
+    "ryanholbrook/nvidia-utility-script",
+    "huikang/tinker-submission-notebook",
+    "huikang/adapter-validation-notebook"
+  ],
+  "competition_sources": [
+    "nvidia-nemotron-model-reasoning-challenge"
+  ],
+  "model_sources": [
+    "metric/nemotron-3-nano-30b-a3b-bf16/Transformers/default/1"
+  ],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:9fa0da194fad2241d3f01a80581cbecbd3a258b4d1b695e2cbbbc62a0fd205ac",
+  "machine_shape": "NvidiaRtxPro6000"
+}
