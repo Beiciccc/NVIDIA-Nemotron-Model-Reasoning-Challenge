@@ -6,7 +6,7 @@ REMOTE_USER="${REMOTE_USER:-featurize}"
 REMOTE_HOST="${REMOTE_HOST:-workspace.featurize.cn}"
 REMOTE_PORT="${REMOTE_PORT:-14114}"
 REMOTE_DIR="${REMOTE_DIR:-/home/featurize/nemotron}"
-SSH_KEY="${SSH_KEY:-$HOME/.ssh/codex_featurize_nemotron}"
+SSH_KEY="${SSH_KEY:-$HOME/.ssh/featurize_nemotron}"
 SYNC_INTERVAL="${SYNC_INTERVAL:-600}"
 
 run_sync() {

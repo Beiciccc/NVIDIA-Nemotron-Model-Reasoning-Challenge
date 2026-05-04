@@ -1,4 +1,8 @@
 .DS_Store
+.aider*
+.claude/
+.codex/
+.cursor/
 __pycache__/
 *.pyc
 .venv/
