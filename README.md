@@ -20,7 +20,7 @@ adapter_model.safetensors
 
 `scripts/submit_public_adapter.ps1` downloads and submits a public LoRA adapter
 dataset used by strong public notebooks, giving us a valid adapter-submission loop
-while local 16GB-GPU training experiments are developed.
+while local 96GB-GPU training experiments are developed.
 
 Remote project directory:
 
