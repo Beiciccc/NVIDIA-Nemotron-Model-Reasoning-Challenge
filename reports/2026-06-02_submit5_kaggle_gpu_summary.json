@@ -1,0 +1,120 @@
+{
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "request": "submit 5 times using Kaggle GPU / Kaggle Code outputs",
+  "cycle_date_utc": "2026-06-02",
+  "latest_check_utc": "2026-06-02T06:15:01Z",
+  "target_public_score": 0.87,
+  "best_this_cycle": {
+    "descriptions": [
+      "jun02_cycle04_siao_nemotron_kienngx_fork_v8_gpu",
+      "jun02_cycle05_afr1ste_tinker_adapter_guide_v4"
+    ],
+    "publicScore": 0.86,
+    "status": "COMPLETE"
+  },
+  "valid_submissions": [
+    {
+      "description": "jun02_cycle01_matthew_steinifrank_v43_gpu",
+      "submitted_utc": "2026-06-02T00:52:14.397Z",
+      "source": "matthewblakeward/steinifrank v43",
+      "gpu": "NVIDIA_RTX_PRO_6000",
+      "status": "COMPLETE",
+      "publicScore": 0.49,
+      "notes": "Later SteinIFrank version avoided evaluator ERROR but collapsed to a very low score; do not reuse this line."
+    },
+    {
+      "description": "jun02_cycle02_taha_lb086_custom_repo_gpu",
+      "submitted_utc": "2026-06-02T02:00:42.967Z",
+      "source": "tahaalam2009/end-to-end-finetuning-for-lb-0-86-custom-repo v6",
+      "gpu": "NVIDIA_RTX_PRO_6000",
+      "status": "COMPLETE",
+      "publicScore": 0.84,
+      "notes": "Yesterday's 0.86 anchor reproduced only 0.84 today; public best score metadata is not sufficient evidence."
+    },
+    {
+      "description": "jun02_cycle03_bianfu_trained_models_gpu_v2",
+      "submitted_utc": "2026-06-02T03:05:57.583Z",
+      "source": "bianfu/nvidia-nemotron-trained-models-submission v2",
+      "gpu": "GPU",
+      "status": "COMPLETE",
+      "publicScore": 0.84,
+      "notes": "Fresh 0.86 metadata candidate, but today's submission scored 0.84; do not repeat the same version."
+    },
+    {
+      "description": "jun02_cycle04_siao_nemotron_kienngx_fork_v8_gpu",
+      "submitted_utc": "2026-06-02T04:12:45.870Z",
+      "source": "siao112/nemotron-kienngx-fork v8",
+      "gpu": "NVIDIA_TESLA_T4",
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "notes": "Best result this cycle; confirms Siao/Kien line is the most stable public 0.86 control."
+    },
+    {
+      "description": "jun02_cycle05_afr1ste_tinker_adapter_guide_v4",
+      "submitted_utc": "2026-06-02T05:16:41.353Z",
+      "source": "afr1ste/nemotron-0-86-tinker-adapter-guide v4",
+      "gpu": "unknown/null in metadata",
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "notes": "Untried 0.86 Tinker/Kien guide line also reached 0.86; no 0.87 improvement."
+    }
+  ],
+  "errors_not_counted": [],
+  "candidate_decisions": [
+    {
+      "source": "dattv08/inference v4",
+      "decision": "skip",
+      "reason": "Latest complete metadata had no competition submission.zip; previous scans also flagged disk/output issues."
+    },
+    {
+      "source": "nghianeeeee/notebook132db68d39 v1",
+      "decision": "skip",
+      "reason": "No output files and no submission.zip at final check."
+    },
+    {
+      "source": "amit393/nvidia-nemotron-score-0-60 v24",
+      "decision": "skip",
+      "reason": "Title and metadata indicated a 0.60 line despite RTX PRO 6000 and submission.zip."
+    },
+    {
+      "source": "lihu6666/tinker-adapter-solved-some-internet-issues v1",
+      "decision": "skip",
+      "reason": "Old output only, null GPU metadata, and no reason to prefer over stronger 0.86 controls."
+    },
+    {
+      "source": "rauffauzanrambe/lora-nemo-pipeline-improve-modular-v1 v6",
+      "decision": "skip",
+      "reason": "Best metadata 0.84 and older output; not a final-slot upgrade."
+    },
+    {
+      "source": "ayomide2000/finding-nemo v16",
+      "decision": "skip_for_final_slot",
+      "reason": "Complete RTX PRO 6000 output with 0.86 metadata, but this line scored 0.85 in the previous local cycle."
+    },
+    {
+      "source": "biohack44/nemotron-v62-d3-sparse-trust-finisher-attack v64",
+      "decision": "skip_for_final_slot",
+      "reason": "Complete RTX PRO 6000 output with 0.86 metadata, but this line scored 0.85 in the previous local cycle."
+    }
+  ],
+  "public_sources_checked": [
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/leaderboard",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion",
+    "https://www.kaggle.com/code/siao112/nemotron-kienngx-fork",
+    "https://www.kaggle.com/code/afr1ste/nemotron-0-86-tinker-adapter-guide",
+    "https://www.kaggle.com/code/bianfu/nvidia-nemotron-trained-models-submission"
+  ],
+  "process_notes": [
+    "Before each valid submission, checked today's COMPLETE count and latest Kaggle Code updates.",
+    "Discussion and leaderboard scans saw new private 0.87 signals, but no public reproducible Code output or recipe.",
+    "All 5 requested submissions reached COMPLETE; no ERROR submissions occurred in this cycle.",
+    "Evaluation latency was roughly one hour per submitted Code output."
+  ],
+  "direction_notes": [
+    "The strongest public reproducible line remains 0.86; today's best is tied at 0.86.",
+    "Siao/Kien and Afr1ste/Tinker controls are stable 0.86 anchors.",
+    "SteinIFrank v43 should be blacklisted for now after scoring 0.49.",
+    "Taha and Bianfu 0.86 metadata both reproduced only 0.84 today, so they should be demoted.",
+    "A real 0.87 push likely requires new adapter evidence or targeted reasoning-category training/validation, not more public 0.86 repacks."
+  ]
+}

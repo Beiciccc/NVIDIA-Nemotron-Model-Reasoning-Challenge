@@ -1,0 +1,54 @@
+{
+  "artifact_notes": {
+    "cycle02_zip": "outputs/2026-05-24_submit5_cycle02_kien_original/submission.zip",
+    "cycle03_zip": "outputs/2026-05-24_submit5_cycle03_evan_axiom/submission.zip",
+    "cycle04_zip": "outputs/2026-05-24_submit5_cycle05_kaicheng_v2/submission.zip",
+    "cycle05_zip": "outputs/2026-05-24_submit5_cycle03_alpha001/submission.zip",
+    "large_file_sync": "full large-file scp was stopped after first 2.37GB zip due very low throughput; metadata tar synced instead"
+  },
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "generated_at": "2026-05-24 15:10:56 BST",
+  "records": [
+    {
+      "date": "2026-05-24 08:16:31.807000",
+      "error_description": "",
+      "message": "cycle01_kien086_hard_boxed_lr5e7_s16",
+      "public_score": "0.51",
+      "ref": 52979378,
+      "status": "COMPLETE"
+    },
+    {
+      "date": "2026-05-24 09:50:23",
+      "error_description": "",
+      "message": "cycle02_kien086_original_control",
+      "public_score": "0.86",
+      "ref": 52981802,
+      "status": "COMPLETE"
+    },
+    {
+      "date": "2026-05-24 10:59:04.417000",
+      "error_description": "",
+      "message": "cycle03_evan_axiom_adapter",
+      "public_score": "0.63",
+      "ref": 52983614,
+      "status": "COMPLETE"
+    },
+    {
+      "date": "2026-05-24 12:16:33.283000",
+      "error_description": "Evaluation metric raised an unexpected error",
+      "message": "cycle04_kaicheng_v2_small_adapter",
+      "public_score": "",
+      "ref": 52985694,
+      "status": "ERROR"
+    },
+    {
+      "date": "2026-05-24 12:42:02.177000",
+      "error_description": "",
+      "message": "cycle05_kien_alpha001_residual",
+      "public_score": "0.85",
+      "ref": 52986392,
+      "status": "COMPLETE"
+    }
+  ],
+  "today_count": 5
+}

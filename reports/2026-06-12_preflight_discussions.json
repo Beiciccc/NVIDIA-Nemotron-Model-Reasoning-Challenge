@@ -1,0 +1,182 @@
+[
+  {
+    "id": 681745,
+    "title": "How to Get Started + Nemotron Model Reasoning Challenge Resources",
+    "topicUrl": "/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/681745",
+    "commentCount": 35,
+    "votes": 60,
+    "postDate": "2026-03-17T00:08:37.322Z",
+    "lastCommentPostDate": "2026-06-11T12:44:33.436Z",
+    "isSticky": true
+  },
+  {
+    "id": 705553,
+    "title": "Open Contribution Award Submissions due June 22",
+    "topicUrl": "/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/705553",
+    "commentCount": 1,
+    "votes": 6,
+    "postDate": "2026-06-10T18:01:16.658Z",
+    "lastCommentPostDate": "2026-06-10T20:23:27.470Z",
+    "isSticky": true
+  },
+  {
+    "id": 687798,
+    "title": "Rescore After Metric Update",
+    "topicUrl": "/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/687798",
+    "commentCount": 23,
+    "votes": 16,
+    "postDate": "2026-04-03T17:30:58.430Z",
+    "lastCommentPostDate": "2026-06-10T18:05:35.606Z",
+    "isSticky": true
+  },
+  {
+    "id": 698106,
+    "title": "Metric Update",
+    "topicUrl": "/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/698106",
+    "commentCount": 24,
+    "votes": 23,
+    "postDate": "2026-05-08T14:02:56.743Z",
+    "lastCommentPostDate": "2026-06-10T13:03:23.560Z",
+    "isSticky": true
+  },
+  {
+    "id": 681714,
+    "title": "How to get started + Competition's Official Discord",
+    "topicUrl": "/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/681714",
+    "commentCount": 7,
+    "votes": 11,
+    "postDate": "2026-03-16T18:08:34.473Z",
+    "lastCommentPostDate": "2026-04-21T08:52:55.353Z",
+    "isSticky": true
+  },
+  {
+    "id": 703479,
+    "title": "Trying to improve cryptarithm — feedback welcome",
+    "topicUrl": "/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/703479",
+    "commentCount": 36,
+    "votes": 22,
+    "postDate": "2026-05-31T13:27:38.781Z",
+    "lastCommentPostDate": "2026-06-12T18:06:24.606Z"
+  },
+  {
+    "id": 707872,
+    "title": "New Entrants 3 Days Before the End? Kaggle Bug.",
+    "topicUrl": "/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/707872",
+    "commentCount": 2,
+    "postDate": "2026-06-12T09:06:47.872Z",
+    "lastCommentPostDate": "2026-06-12T11:44:45.066Z"
+  },
+  {
+    "id": 684251,
+    "title": "The fit of unsloth to the Nemotron model",
+    "topicUrl": "/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/684251",
+    "commentCount": 3,
+    "votes": 1,
+    "postDate": "2026-03-24T07:43:34.801Z",
+    "lastCommentPostDate": "2026-06-12T11:43:52.486Z"
+  },
+  {
+    "id": 705227,
+    "title": "Is overfitting possible in this competition?",
+    "topicUrl": "/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/705227",
+    "commentCount": 16,
+    "votes": 4,
+    "postDate": "2026-06-09T05:53:44.851Z",
+    "lastCommentPostDate": "2026-06-12T11:05:18.176Z"
+  },
+  {
+    "id": 707856,
+    "title": "A gated linear-equation CoT approach for cryptarithm",
+    "topicUrl": "/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/707856",
+    "votes": 5,
+    "postDate": "2026-06-12T06:48:44.735Z",
+    "lastCommentPostDate": "2026-06-12T06:48:44.736Z"
+  },
+  {
+    "id": 707802,
+    "title": "Unsloth + NemotronH: Mamba out_proj LoRA weights stay exactly zero — Mamba fast-path bypasses PEFT wrapper?",
+    "topicUrl": "/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/707802",
+    "commentCount": 1,
+    "postDate": "2026-06-11T21:21:43.611Z",
+    "lastCommentPostDate": "2026-06-12T02:03:51.856Z"
+  },
+  {
+    "id": 707596,
+    "title": "Open Contribution Awards and Leaderboard",
+    "topicUrl": "/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/707596",
+    "commentCount": 2,
+    "votes": 1,
+    "postDate": "2026-06-10T22:25:06.307Z",
+    "lastCommentPostDate": "2026-06-11T21:37:48.953Z"
+  },
+  {
+    "id": 705001,
+    "title": "Potential DGX Spark loophole?",
+    "topicUrl": "/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/705001",
+    "commentCount": 6,
+    "votes": 9,
+    "postDate": "2026-06-08T10:55:31.338Z",
+    "lastCommentPostDate": "2026-06-10T11:13:18.400Z"
+  },
+  {
+    "id": 705393,
+    "title": "What's the right adapter key count for NemotronH? Fused MoE expert keys vs standard PEFT",
+    "topicUrl": "/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/705393",
+    "commentCount": 1,
+    "votes": 1,
+    "postDate": "2026-06-09T20:18:19.160Z",
+    "lastCommentPostDate": "2026-06-10T08:09:38.683Z"
+  },
+  {
+    "id": 705240,
+    "title": "Providing certificate of participation",
+    "topicUrl": "/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/705240",
+    "votes": -7,
+    "postDate": "2026-06-09T07:28:37.731Z",
+    "lastCommentPostDate": "2026-06-09T07:28:37.730Z"
+  },
+  {
+    "id": 705105,
+    "title": "How to train within 12-hour GPU limit?",
+    "topicUrl": "/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/705105",
+    "commentCount": 2,
+    "votes": 3,
+    "postDate": "2026-06-08T18:05:09.072Z",
+    "lastCommentPostDate": "2026-06-09T04:41:04.880Z"
+  },
+  {
+    "id": 705155,
+    "title": " Solved — ptxas-blackwell PermissionError: the env var name everyone's using is wrong",
+    "topicUrl": "/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/705155",
+    "votes": 1,
+    "postDate": "2026-06-08T20:28:58.137Z",
+    "lastCommentPostDate": "2026-06-08T20:28:58.136Z"
+  },
+  {
+    "id": 704491,
+    "title": "From Solving Overfitting to Fighting Non-Determinism",
+    "topicUrl": "/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/704491",
+    "commentCount": 41,
+    "votes": 2,
+    "postDate": "2026-06-04T19:05:45.318Z",
+    "lastCommentPostDate": "2026-06-08T12:02:41.820Z"
+  },
+  {
+    "id": 703798,
+    "title": "Best bit manipulation CoT format for 0.70+?",
+    "topicUrl": "/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/703798",
+    "commentCount": 4,
+    "votes": 1,
+    "postDate": "2026-06-01T23:20:40.681Z",
+    "lastCommentPostDate": "2026-06-08T11:26:24.946Z"
+  },
+  {
+    "id": 704595,
+    "title": "0.89!!!  I believe the breakthrough to 0.89 will definitely be in the Cryptoithm puzzle.",
+    "topicUrl": "/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/704595",
+    "commentCount": 4,
+    "votes": 12,
+    "postDate": "2026-06-05T11:40:56.419Z",
+    "lastCommentPostDate": "2026-06-08T06:06:38.456Z"
+  }
+]

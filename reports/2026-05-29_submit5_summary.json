@@ -1,0 +1,83 @@
+{
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "request": "submit 5 times, target public LB 0.87",
+  "cycle_date_local": "2026-05-29",
+  "latest_check_utc": "2026-05-29T03:06:38Z",
+  "target_public_score": 0.87,
+  "best_this_cycle": {
+    "description": "may29_cycle01_kien_anchor_086",
+    "publicScore": 0.86,
+    "status": "COMPLETE"
+  },
+  "valid_submissions": [
+    {
+      "description": "may29_cycle01_kien_tinker_anchor_control",
+      "submitted_utc": "2026-05-28T23:40:03.803Z",
+      "status": "COMPLETE",
+      "publicScore": 0.85,
+      "notes": "Kien anchor/control repeat; stable but below current 0.87 target."
+    },
+    {
+      "description": "may29_cycle01_rauffauzan_lora_nemo_v6_target087",
+      "submitted_utc": "2026-05-28T23:40:13.577Z",
+      "status": "COMPLETE",
+      "publicScore": 0.84,
+      "notes": "Direct kernel-output submit from rauffauzanrambe/lora-nemo-pipeline-improve-modular-v1."
+    },
+    {
+      "description": "may29_cycle01_kien_anchor_086",
+      "submitted_utc": "2026-05-28T23:40:39Z",
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "notes": "Best result in this cycle; reproduces known 0.86 ceiling."
+    },
+    {
+      "description": "may29_cycle05_evan_layered_b15e025_rank32",
+      "submitted_utc": "2026-05-28T23:45:01Z",
+      "status": "COMPLETE",
+      "publicScore": 0.44,
+      "notes": "Wrapper for evanleri/nemotron-huikang-plus-b15e025-layered-rank32. Public score collapsed despite local notes suggesting promise."
+    },
+    {
+      "description": "may29_cycle05_evan_b15e4820_checkpoint",
+      "submitted_utc": "2026-05-28T23:48:57.633Z",
+      "status": "COMPLETE",
+      "publicScore": 0.60,
+      "notes": "Wrapper for evanleri/nemotron-b15e-best-adapter-checkpoint-4820-public. Better than layered but far below target."
+    }
+  ],
+  "errors_not_counted": [
+    {
+      "description": "may29_cycle01_lora_nemo_pipeline_v2",
+      "submitted_utc": "2026-05-28T23:41:48Z",
+      "status": "ERROR",
+      "publicScore": null,
+      "notes": "Kaggle scoring error; excluded from valid count under user rule."
+    }
+  ],
+  "public_lb_snapshot": {
+    "top_score": 0.87,
+    "top_teams_seen": [
+      "Y | M | F",
+      "Researcher 7919",
+      "Lora is all you need",
+      "Kh0a",
+      "fate",
+      "JK-Piece",
+      "Surya milenial",
+      "Alehandreus & Yurnero",
+      "Yoshinari Kawashima"
+    ]
+  },
+  "direction_notes": [
+    "Fresh Evan B15e/layered public adapters are not reliable paths to 0.87; both underperformed badly on public LB.",
+    "Kien/Huikang-family anchors remain the only stable 0.86 source found locally, but repeated packaging variants do not bridge to 0.87.",
+    "Rauffauzan wrapper/packaging variant scored 0.84, so compression or simple repackaging is not the missing improvement.",
+    "Next high-value work should prioritize genuinely new Huikang-based 0.87 leakage/signals from discussion/code updates or controlled adapter surgery around the known 0.86 anchor, not blind submission of new 3GB adapters."
+  ],
+  "process_notes": [
+    "Stopped residual kaggle_submit_loop.py process after detecting unintended queue entries.",
+    "No active Nemotron submit process remained after cleanup.",
+    "Subagents confirmed no new trustworthy public 0.87 source was available; Evan wrappers were the only meaningful new adapter tests."
+  ]
+}

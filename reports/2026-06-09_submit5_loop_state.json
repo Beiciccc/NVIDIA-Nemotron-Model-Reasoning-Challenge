@@ -1,0 +1,261 @@
+{
+  "failedMessages": [
+    "jun09_cycle01_biohack_v62_sparse_trust_probe",
+    "jun09_cycle02_evgendvorkin_lora_adapter_probe",
+    "jun09_cycle03_vng_refine_probe",
+    "jun09_cycle04_solver_distilled_lora_probe",
+    "jun09_cycle05_geobias_probe",
+    "jun09_cycle06_wethepeople_megatron_retry",
+    "jun09_cycle07_shimoyamas_training_probe",
+    "jun09_cycle08_private_kien_tinker_anchor",
+    "jun09_cycle09_private_kien_tinker_anchor_repeat",
+    "jun09_cycle10_private_kien_tinker_anchor_repeat2",
+    "jun09_cycle11_private_kien_tinker_anchor_repeat3",
+    "jun09_cycle12_private_kien_tinker_anchor_repeat4",
+    "jun09_cycle13_private_backtracking_v20_fallback",
+    "jun09_cycle14_private_lopure_adapter3_fallback"
+  ],
+  "failures": [
+    {
+      "atUtc": "2026-06-09T02:13:08.815820+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun09_cycle01_biohack_v62_sparse_trust_probe",
+        "reason": "Fresh 2026-06-08 19:58 Code with submission.zip and 20 votes; high-upside public probe before falling back to anchors.",
+        "ref": "biohack44/nemotron-v62-d3-sparse-trust-finisher-attack",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun09_cycle01_biohack_v62_sparse_trust_probe"
+    },
+    {
+      "atUtc": "2026-06-09T02:13:39.192241+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun09_cycle02_evgendvorkin_lora_adapter_probe",
+        "reason": "Fresh 2026-06-08 20:32 Code with submission.zip and 25 votes; plausible LoRA adapter submission.",
+        "ref": "evgendvorkin/nemotron-3-nano-lora-adapter-submission",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun09_cycle02_evgendvorkin_lora_adapter_probe"
+    },
+    {
+      "atUtc": "2026-06-09T02:14:09.933945+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun09_cycle03_vng_refine_probe",
+        "reason": "Fresh 2026-06-08 17:14 Code with adapter files and submission.zip; possible refinement variant.",
+        "ref": "vngnguynhuy/refine",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun09_cycle03_vng_refine_probe"
+    },
+    {
+      "atUtc": "2026-06-09T02:14:40.354407+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun09_cycle04_solver_distilled_lora_probe",
+        "reason": "Fresh 2026-06-08 solver-distilled LoRA candidate; unknown score but aligned with real targeted-training direction.",
+        "ref": "nphuong302/nemotron-challenge-solver-distilled-lora",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun09_cycle04_solver_distilled_lora_probe"
+    },
+    {
+      "atUtc": "2026-06-09T02:15:10.967282+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun09_cycle05_geobias_probe",
+        "reason": "Fresh 2026-06-08 category-biased candidate; lower vote count but better conceptual diversity than another anchor repeat.",
+        "ref": "duongnguyen291/080626-slt-csl-abl-cpi-1l4h-geobias",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun09_cycle05_geobias_probe"
+    },
+    {
+      "atUtc": "2026-06-09T02:15:41.480554+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun09_cycle06_wethepeople_megatron_retry",
+        "reason": "High-vote fresh public Code; blocked by 403 on 2026-06-08, retried only after newer probes.",
+        "ref": "wethepeople918/megatronthedecepticon",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun09_cycle06_wethepeople_megatron_retry"
+    },
+    {
+      "atUtc": "2026-06-09T02:16:12.092695+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun09_cycle07_shimoyamas_training_probe",
+        "reason": "Only visible 2026-06-09 run in latest Code list; first page did not show submission.zip, so it is low priority.",
+        "ref": "shimoyamas/nvidia-nemotron-training",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun09_cycle07_shimoyamas_training_probe"
+    },
+    {
+      "atUtc": "2026-06-09T03:02:11.233821+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun09_cycle08_private_kien_tinker_anchor",
+        "reason": "Private kernel-output route for the historical 0.86 Kien/Tinker anchor; avoids slow local 3GB upload.",
+        "ref": "beicicc/nemotron-direct-kien-tinker-anchor-may26",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun09_cycle08_private_kien_tinker_anchor"
+    },
+    {
+      "atUtc": "2026-06-09T03:02:41.958912+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun09_cycle09_private_kien_tinker_anchor_repeat",
+        "reason": "Repeat of the strongest private 0.86 kernel-output anchor; used because public Code submissions are 403.",
+        "ref": "beicicc/nemotron-direct-kien-tinker-anchor-may26",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun09_cycle09_private_kien_tinker_anchor_repeat"
+    },
+    {
+      "atUtc": "2026-06-09T03:03:12.854381+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun09_cycle10_private_kien_tinker_anchor_repeat2",
+        "reason": "Repeat of the strongest private 0.86 kernel-output anchor; public repeats are not an improvement path but satisfy the requested cycle after probes fail.",
+        "ref": "beicicc/nemotron-direct-kien-tinker-anchor-may26",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun09_cycle10_private_kien_tinker_anchor_repeat2"
+    },
+    {
+      "atUtc": "2026-06-09T03:03:43.323650+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun09_cycle11_private_kien_tinker_anchor_repeat3",
+        "reason": "Repeat of the strongest private 0.86 kernel-output anchor with observed public nondeterminism around 0.85-0.86.",
+        "ref": "beicicc/nemotron-direct-kien-tinker-anchor-may26",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun09_cycle11_private_kien_tinker_anchor_repeat3"
+    },
+    {
+      "atUtc": "2026-06-09T03:04:13.834340+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun09_cycle12_private_kien_tinker_anchor_repeat4",
+        "reason": "Final private 0.86 anchor repeat before lower-scoring fallbacks.",
+        "ref": "beicicc/nemotron-direct-kien-tinker-anchor-may26",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun09_cycle12_private_kien_tinker_anchor_repeat4"
+    },
+    {
+      "atUtc": "2026-06-09T03:04:44.349319+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun09_cycle13_private_backtracking_v20_fallback",
+        "reason": "Known 0.85 private kernel-output fallback if Kien repeats are unavailable.",
+        "ref": "beicicc/nemotron-direct-backtracking-v20-c5",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun09_cycle13_private_backtracking_v20_fallback"
+    },
+    {
+      "atUtc": "2026-06-09T03:05:14.849814+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun09_cycle14_private_lopure_adapter3_fallback",
+        "reason": "Known 0.84 fallback only; kept behind stronger Kien and backtracking outputs.",
+        "ref": "beicicc/nemotron-direct-lopure-adapter3-c4",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun09_cycle14_private_lopure_adapter3_fallback"
+    }
+  ],
+  "requests": [
+    {
+      "atUtc": "2026-06-09T03:09:00.684170+00:00",
+      "candidate": {
+        "kind": "file",
+        "message": "jun09_file_cycle15_minyam_small_upload_smoke",
+        "reason": "Small 51MB ordinary upload smoke after Code API 403 and 3GB upload stall; historically low score around 0.52.",
+        "zip": "outputs/2026-05-26_submit5_cycle01_minyam_kien_v4/submission.zip"
+      },
+      "message": "jun09_file_cycle15_minyam_small_upload_smoke"
+    },
+    {
+      "atUtc": "2026-06-09T04:00:06.115673+00:00",
+      "candidate": {
+        "kind": "file",
+        "message": "jun09_file_cycle16_minyam_small_upload_repeat",
+        "reason": "Small fallback to complete the requested daily submission count when higher-score routes are blocked.",
+        "zip": "outputs/2026-05-26_submit5_cycle01_minyam_kien_v4/submission.zip"
+      },
+      "message": "jun09_file_cycle16_minyam_small_upload_repeat"
+    },
+    {
+      "atUtc": "2026-06-09T05:01:04.318893+00:00",
+      "candidate": {
+        "kind": "file",
+        "message": "jun09_file_cycle17_minyam_small_upload_repeat2",
+        "reason": "Small fallback to complete the requested daily submission count when higher-score routes are blocked.",
+        "zip": "outputs/2026-05-26_submit5_cycle01_minyam_kien_v4/submission.zip"
+      },
+      "message": "jun09_file_cycle17_minyam_small_upload_repeat2"
+    },
+    {
+      "atUtc": "2026-06-09T06:06:31.087593+00:00",
+      "candidate": {
+        "kind": "file",
+        "message": "jun09_file_cycle18_minyam_small_upload_repeat3",
+        "reason": "Small fallback to complete the requested daily submission count when higher-score routes are blocked.",
+        "zip": "outputs/2026-05-26_submit5_cycle01_minyam_kien_v4/submission.zip"
+      },
+      "message": "jun09_file_cycle18_minyam_small_upload_repeat3"
+    },
+    {
+      "atUtc": "2026-06-09T06:58:08.294878+00:00",
+      "candidate": {
+        "kind": "file",
+        "message": "jun09_file_cycle19_minyam_small_upload_repeat4",
+        "reason": "Small fallback to complete the requested daily submission count when higher-score routes are blocked.",
+        "zip": "outputs/2026-05-26_submit5_cycle01_minyam_kien_v4/submission.zip"
+      },
+      "message": "jun09_file_cycle19_minyam_small_upload_repeat4"
+    }
+  ],
+  "submittedMessages": [
+    "jun09_file_cycle15_minyam_small_upload_smoke",
+    "jun09_file_cycle16_minyam_small_upload_repeat",
+    "jun09_file_cycle17_minyam_small_upload_repeat2",
+    "jun09_file_cycle18_minyam_small_upload_repeat3",
+    "jun09_file_cycle19_minyam_small_upload_repeat4"
+  ]
+}

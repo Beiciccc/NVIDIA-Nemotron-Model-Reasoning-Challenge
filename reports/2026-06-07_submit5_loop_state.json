@@ -1,0 +1,42 @@
+{
+  "failedMessages": [
+    "jun07_cycle01_mirza_best_model_updated_probe",
+    "jun07_cycle02_jack_tinker_adapter_probe",
+    "jun07_cycle05_mirza_model_notebook_anchor",
+    "jun07_cycle07_mirza_best_score_public_probe",
+    "jun07_cycle08_scenery_adapter_ensemble_fallback",
+    "jun07_cycle09_rohan_nvidia_comp_fallback"
+  ],
+  "failures": [
+    {
+      "atUtc": "2026-06-07T06:32:40.241791+00:00",
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun07_cycle01_mirza_best_model_updated_probe"
+    },
+    {
+      "atUtc": "2026-06-07T06:34:41.947097+00:00",
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun07_cycle02_jack_tinker_adapter_probe"
+    },
+    {
+      "atUtc": "2026-06-07T08:29:08.705110+00:00",
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun07_cycle05_mirza_model_notebook_anchor"
+    },
+    {
+      "atUtc": "2026-06-07T09:34:26.577972+00:00",
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun07_cycle07_mirza_best_score_public_probe"
+    },
+    {
+      "atUtc": "2026-06-07T10:28:39.006872+00:00",
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun07_cycle08_scenery_adapter_ensemble_fallback"
+    },
+    {
+      "atUtc": "2026-06-07T10:30:40.829433+00:00",
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun07_cycle09_rohan_nvidia_comp_fallback"
+    }
+  ]
+}

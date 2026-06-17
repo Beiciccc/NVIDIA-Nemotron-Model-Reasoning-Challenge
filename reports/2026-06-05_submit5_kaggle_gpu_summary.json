@@ -1,0 +1,141 @@
+{
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "request": "submit 5 times using Kaggle GPU / Kaggle Code outputs",
+  "cycle_date_utc": "2026-06-05",
+  "latest_check_utc": "2026-06-05T06:58:16Z",
+  "target_public_score": 0.87,
+  "effective_non_error_submissions": 5,
+  "errors_not_counted": [],
+  "best_this_cycle": {
+    "descriptions": [
+      "jun05_cycle01_debatreya_best086_under5min",
+      "jun05_cycle02_mirza_best_notebook_086_probe",
+      "jun05_cycle03_mirza_model_notebook_probe",
+      "jun05_cycle05_daniel_finding_nemo_probe"
+    ],
+    "publicScore": 0.86,
+    "status": "COMPLETE"
+  },
+  "valid_submissions": [
+    {
+      "ref": 53377885,
+      "description": "jun05_cycle01_debatreya_best086_under5min",
+      "submitted_utc": "2026-06-05T01:38:22.113Z",
+      "source": "debatreyabiswas/nemotroncomp-best-0-86-solution-nvidia-under-5min v1",
+      "scriptVersionId": 324572187,
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "notes": "Fresh 2026-06-04 public Code output titled best 0.86; reproduced exactly at 0.86."
+    },
+    {
+      "ref": 53378834,
+      "description": "jun05_cycle02_mirza_best_notebook_086_probe",
+      "submitted_utc": "2026-06-05T02:33:23.943Z",
+      "source": "mirzayasirabdullah07/best-nvidia-nemotron-notebook-0-86 v16",
+      "scriptVersionId": 324524084,
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "notes": "Fresh Mirza 0.86 public output; confirmed stable 0.86 and did not break the ceiling."
+    },
+    {
+      "ref": 53379999,
+      "description": "jun05_cycle03_mirza_model_notebook_probe",
+      "submitted_utc": "2026-06-05T03:33:35.657Z",
+      "source": "mirzayasirabdullah07/nvidia-nemotron-model-notebook v3",
+      "scriptVersionId": 324497557,
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "notes": "Second Mirza-family probe; again reproduced 0.86 with no 0.87 signal."
+    },
+    {
+      "ref": 53381186,
+      "description": "jun05_cycle04_adil_reasoning_101",
+      "submitted_utc": "2026-06-05T04:35:46.933Z",
+      "source": "adilshamim8/nvidia-nemotron-model-reasoning-challenge-101 v4",
+      "scriptVersionId": 311680542,
+      "status": "COMPLETE",
+      "publicScore": 0.47,
+      "notes": "Exploration slot failed badly; mark this family as avoid for future submit loops."
+    },
+    {
+      "ref": 53382475,
+      "description": "jun05_cycle05_daniel_finding_nemo_probe",
+      "submitted_utc": "2026-06-05T05:44:02.150Z",
+      "source": "danielsleiman/finding-nemo v1",
+      "scriptVersionId": 324380050,
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "notes": "New finding-nemo fork; reproduced 0.86, matching the Ayomide v17 anchor without improvement."
+    }
+  ],
+  "candidate_decisions": [
+    {
+      "source": "adilshamim8/nvidia-nemotron-model-reasoning-challenge-101 v4",
+      "decision": "avoid_future",
+      "reason": "Submitted as cycle04 and returned 0.47 despite COMPLETE status."
+    },
+    {
+      "source": "mirzayasirabdullah07/best-nvidia-nemotron-notebook-0-86 v16",
+      "decision": "stable_anchor_only",
+      "reason": "Returned 0.86; useful as a control but not an improvement path."
+    },
+    {
+      "source": "mirzayasirabdullah07/nvidia-nemotron-model-notebook v3",
+      "decision": "stable_anchor_only",
+      "reason": "Returned 0.86; same public ceiling as other Mirza outputs."
+    },
+    {
+      "source": "danielsleiman/finding-nemo v1",
+      "decision": "stable_anchor_only",
+      "reason": "Returned 0.86; no fork drift improvement over known finding-nemo lines."
+    },
+    {
+      "source": "kuangyicheng/nemotron-087-training v91",
+      "decision": "fallback_not_used",
+      "reason": "Title claims 0.87, but no direct local proof and prior scans flagged the family as risky/low-score; held behind safer candidates."
+    },
+    {
+      "source": "ayomide2000/finding-nemo v17",
+      "decision": "fallback_not_used",
+      "reason": "Known 0.86 anchor from 2026-06-04; not needed after cycle05 completed."
+    },
+    {
+      "source": "afr1ste/nemotron-0-86-tinker-adapter-guide v4",
+      "decision": "fallback_not_used",
+      "reason": "Known 0.86-capable anchor; not needed after cycle05 completed."
+    }
+  ],
+  "public_sources_checked": [
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/leaderboard",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/code",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion",
+    "https://www.kaggle.com/code/debatreyabiswas/nemotroncomp-best-0-86-solution-nvidia-under-5min",
+    "https://www.kaggle.com/code/mirzayasirabdullah07/best-nvidia-nemotron-notebook-0-86",
+    "https://www.kaggle.com/code/mirzayasirabdullah07/nvidia-nemotron-model-notebook",
+    "https://www.kaggle.com/code/adilshamim8/nvidia-nemotron-model-reasoning-challenge-101",
+    "https://www.kaggle.com/code/danielsleiman/finding-nemo",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/704473",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/704491",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/703479",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/702447",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/703864"
+  ],
+  "process_notes": [
+    "The loop queried today's submissions before each action and waited for each PENDING submission before moving on.",
+    "The active long polling script was scripts/run_jun05_submit5_loop.py.",
+    "Code, Discussion, and Leaderboard context were refreshed after each completed target before selecting the next candidate.",
+    "No ERROR submissions occurred during this cycle.",
+    "A subagent initially started cycle01 and then stopped its residual process after the no-write/no-submit constraint update; the main thread continued with a visible PTY session and controlled the remaining loop."
+  ],
+  "direction_notes": [
+    "The leaderboard now has a public 0.89 team (NullSira) and many 0.87 teams, so the public 0.86 ceiling is breakable.",
+    "No public Code or Discussion path exposes a directly reproducible 0.87 submission.zip.",
+    "Fresh public 0.86 outputs continue to reproduce at 0.86; Mirza and finding-nemo variants remain control submissions, not upgrade paths.",
+    "The Adil reasoning 101 probe scoring 0.47 shows that high-visibility COMPLETE public outputs can be unrelated or badly misaligned; future candidate selection should require score metadata or strong lineage.",
+    "Promising real directions remain multi-task-preserving LoRA/adapter merging, targeted cryptarithm and symbolic gains without catastrophic regression, and evaluation-format/non-determinism control."
+  ],
+  "subagent_notes": [
+    "Code-scan subagent identified precise version/scriptVersionId values for the 2026-06-05 candidate queue.",
+    "Discussion/Leaderboard subagent confirmed current top public score 0.89 and broader 0.87+ movement, but no directly reproducible public 0.87 recipe."
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "dateUtc": "2026-06-16",
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "requestedCompleteSubmissions": 5,
+  "completedSubmissions": 5,
+  "competitionDeadlineObserved": "2026-06-15 23:59:00",
+  "mode": "late-submission-after-official-deadline",
+  "sourceFile": {
+    "path": "outputs/2026-05-26_submit5_cycle01_minyam_kien_v4/submission.zip",
+    "sha256": "950c5a259dfebe88e157db407ccf905d6c7cd787242e35b2377dec11e34e3f48",
+    "bytes": 53890267,
+    "note": "Small fallback file used to avoid repeated large-upload resets; suitable only for completing late submissions, not for final selection."
+  },
+  "completedRows": [
+    {
+      "ref": "53731282",
+      "submittedAt": "2026-06-16 04:45:50.917000",
+      "description": "jun16_after_deadline_probe_small_fallback",
+      "status": "COMPLETE",
+      "publicScore": 0.54,
+      "privateScore": 0.56
+    },
+    {
+      "ref": "53731452",
+      "submittedAt": "2026-06-16 04:54:03.760000",
+      "description": "jun16_late_small_fallback_cycle02_attempt01",
+      "status": "COMPLETE",
+      "publicScore": 0.53,
+      "privateScore": 0.56
+    },
+    {
+      "ref": "53731498",
+      "submittedAt": "2026-06-16 04:56:04.157000",
+      "description": "jun16_late_small_fallback_cycle03_attempt02",
+      "status": "COMPLETE",
+      "publicScore": 0.52,
+      "privateScore": 0.55
+    },
+    {
+      "ref": "53731543",
+      "submittedAt": "2026-06-16 04:58:18.103000",
+      "description": "jun16_late_small_fallback_cycle04_attempt03",
+      "status": "COMPLETE",
+      "publicScore": 0.52,
+      "privateScore": 0.56
+    },
+    {
+      "ref": "53731587",
+      "submittedAt": "2026-06-16 05:00:34.783000",
+      "description": "jun16_late_small_fallback_cycle05_attempt04",
+      "status": "COMPLETE",
+      "publicScore": 0.52,
+      "privateScore": 0.56
+    }
+  ],
+  "bestPublicScoreToday": 0.54,
+  "bestPrivateScoreToday": 0.56,
+  "nonCountingFailures": [
+    {
+      "messages": [
+        "jun16_late_small_fallback_cycle02",
+        "jun16_late_small_fallback_cycle03",
+        "jun16_late_small_fallback_cycle04",
+        "jun16_late_small_fallback_cycle05"
+      ],
+      "reason": "Initial rapid retry loop hit Kaggle StartSubmissionUpload 429 rate limits; no submission rows were created."
+    }
+  ],
+  "strongArtifactStillAvailable": {
+    "path": "outputs/jun14_public_downloads/beicicc_kien_anchor/submission.zip",
+    "sha256": "a82f37d670f516232821178d10ab718a6e24db119b3fdc0c39d9ae14b7f243f8",
+    "bytes": 3554385828,
+    "observedPublicScore": 0.86,
+    "observedPrivateScore": 0.83,
+    "submissionRef": "53686119",
+    "note": "Best known official artifact, but it was not re-uploaded on 2026-06-16 because the official deadline had passed and large uploads were unreliable on 2026-06-15."
+  },
+  "iterationConclusion": "Five requested submissions were completed as late submissions after the official deadline. They do not improve the official result; best late score was public 0.54 / private 0.56. The official best known submission remains ref 53686119 with public 0.86 / private 0.83."
+}

@@ -13,5 +13,6 @@ runs/
 submissions/
 *.bin
 *.zip
+reports/*metadata_sync.tar.gz
 submission.csv
 submission_*.csv

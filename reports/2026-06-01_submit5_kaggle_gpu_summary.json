@@ -1,0 +1,113 @@
+{
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "request": "submit 5 times using Kaggle GPU",
+  "cycle_date_utc": "2026-06-01",
+  "latest_check_utc": "2026-06-01T07:05:45Z",
+  "target_public_score": 0.87,
+  "best_this_cycle": {
+    "description": "jun01_cycle02_taha_lb086_custom_repo_gpu",
+    "publicScore": 0.86,
+    "status": "COMPLETE"
+  },
+  "valid_submissions": [
+    {
+      "description": "jun01_cycle01_bbob_tier2_unsloth_r32_gpu",
+      "submitted_utc": "2026-06-01T01:49:46.997Z",
+      "source": "bbobwayne/nemotron-tier-2-unsloth-lora-r-32 v12",
+      "gpu": "NVIDIA_RTX_PRO_6000",
+      "status": "COMPLETE",
+      "publicScore": 0.84,
+      "notes": "Tier-2 r32 Unsloth line underperformed the older Tier-1 0.86 anchor."
+    },
+    {
+      "description": "jun01_cycle02_taha_lb086_custom_repo_gpu",
+      "submitted_utc": "2026-06-01T03:07:51.700Z",
+      "source": "tahaalam2009/end-to-end-finetuning-for-lb-0-86-custom-repo v6",
+      "gpu": "NVIDIA_RTX_PRO_6000",
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "notes": "Best result this cycle; confirms the stable 0.86 public line."
+    },
+    {
+      "description": "jun01_cycle03_finding_nemo_v16_gpu",
+      "submitted_utc": "2026-06-01T04:04:06.523Z",
+      "source": "ayomide2000/finding-nemo v16",
+      "gpu": "NVIDIA_RTX_PRO_6000",
+      "status": "COMPLETE",
+      "publicScore": 0.85,
+      "notes": "Kien/Finding Nemo family reproduced only 0.85 in this cycle."
+    },
+    {
+      "description": "jun01_cycle04_biohack_v64_sparse_trust_gpu",
+      "submitted_utc": "2026-06-01T04:58:20.827Z",
+      "source": "biohack44/nemotron-v62-d3-sparse-trust-finisher-attack v64",
+      "gpu": "NVIDIA_RTX_PRO_6000",
+      "status": "COMPLETE",
+      "publicScore": 0.85,
+      "notes": "Complete GPU output, but score stayed at the 0.85 safety line."
+    },
+    {
+      "description": "jun01_cycle05_siao_thk_kienngx_v7_gpu",
+      "submitted_utc": "2026-06-01T06:02:55.220Z",
+      "source": "siao112/thk-public-fork-2026-05-15-v14-kienngx v7",
+      "gpu": "NVIDIA_TESLA_T4",
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "notes": "Latest Siao GPU output reached 0.86; useful as a stable control, not a 0.87 breakthrough."
+    }
+  ],
+  "errors_not_counted": [
+    {
+      "description": "jun01_cycle02_matthew_steinifrank_v15_gpu",
+      "submitted_utc": "2026-06-01T02:46:53.480Z",
+      "source": "matthewblakeward/steinifrank v15",
+      "status": "ERROR",
+      "errorDescription": "Evaluation metric raised an unexpected error",
+      "notes": "Do not prioritize this line without evidence that a later version fixes evaluator compatibility."
+    }
+  ],
+  "candidate_decisions": [
+    {
+      "source": "habanwer/nemotron-atlas v50",
+      "decision": "skip",
+      "reason": "RTX6000 complete output with submission.zip, but kernel bestPublicScore was only 0.61."
+    },
+    {
+      "source": "itsyoursumit/nvidia-nemotron-submi1 v1",
+      "decision": "skip",
+      "reason": "Latest metadata status was ERROR and no submission.zip was available."
+    },
+    {
+      "source": "kuangyicheng/nemotron-087-training v84",
+      "decision": "skip",
+      "reason": "RTX6000 complete output but kernel bestPublicScore was only 0.58."
+    },
+    {
+      "source": "mirzayasirabdullah07/nvidia-nemotron-model-notebook v12",
+      "decision": "skip",
+      "reason": "Has submission.zip and 0.86 metadata, but latest metadata did not identify it as a GPU output."
+    },
+    {
+      "source": "johnsmall11/jxg-bss-da5d9e",
+      "decision": "skip_for_this_cycle",
+      "reason": "Still RUNNING with no output files at final candidate check."
+    },
+    {
+      "source": "nphuong302/nemotron-challenge-solver-distilled-lora v8",
+      "decision": "skip_for_this_cycle",
+      "reason": "Still RUNNING with no output files at candidate check."
+    }
+  ],
+  "process_notes": [
+    "Before each new valid submission, checked today's remaining submissions and latest Kaggle Code updates.",
+    "Discussion searches did not reveal an actionable new 0.87 direction during this cycle.",
+    "Evaluation queue latency was high: later submissions waited roughly one hour before scoring.",
+    "All 5 requested valid submissions completed; the extra Matthew ERROR was not counted."
+  ],
+  "direction_notes": [
+    "The strongest reproducible public score remains 0.86, not 0.87.",
+    "Fresh or repackaged Kien-family controls usually landed at 0.85-0.86.",
+    "Low-score fresh training outputs should not be submitted just because they are recent RTX6000 runs.",
+    "Next real improvement direction should be a verified new adapter or targeted reasoning-category surgery, not repeated safe control submissions."
+  ]
+}

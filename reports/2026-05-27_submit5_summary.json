@@ -1,0 +1,64 @@
+{
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "date_utc": "2026-05-27",
+  "target_public_score": 0.87,
+  "max_daily_submissions": 5,
+  "completed_submissions": 5,
+  "error_submissions": 0,
+  "best_public_score": 0.85,
+  "target_hit": false,
+  "submissions": [
+    {
+      "description": "may27_cycle04_kien_anchor_086",
+      "status": "COMPLETE",
+      "public_score": 0.85,
+      "note": "Known Kien/Tinker anchor control; underperformed yesterday's 0.86 repeat."
+    },
+    {
+      "description": "may27_cycle02_quincy_public_model",
+      "status": "COMPLETE",
+      "public_score": 0.79,
+      "note": "3.54GB public model linked to a 0.87-team member, but not the 0.87 source."
+    },
+    {
+      "description": "may27_cycle03_finding_nemo_v11",
+      "status": "COMPLETE",
+      "public_score": 0.84,
+      "note": "Latest finding-nemo Kien/SVD-style output; no improvement."
+    },
+    {
+      "description": "may27_cycle04_replay_data_v4",
+      "status": "COMPLETE",
+      "public_score": 0.85,
+      "note": "Replay-data public 0.86-title candidate; matched 0.85 range."
+    },
+    {
+      "description": "may27_cycle05_unsloth_4hours_v3",
+      "status": "COMPLETE",
+      "public_score": 0.85,
+      "note": "Fresh 3GB+ Unsloth training output; no breakthrough."
+    }
+  ],
+  "excluded_or_failed_attempts": [
+    {
+      "candidate": "ayomide2000/finding-nemo -v 1",
+      "result": "Kaggle API 400 before submission record; did not count.",
+      "fix": "Retried as current version -v 11."
+    },
+    {
+      "candidate": "mohamedamr992/nemotron-replay-data-0-86 -v 1",
+      "result": "Kaggle API 400 before submission record; did not count.",
+      "fix": "Retried as current version -v 4."
+    },
+    {
+      "candidate": "chogunter/training-with-unsloth-4hours -v 1",
+      "result": "Kaggle API 400 before submission record; did not count.",
+      "fix": "Retried as current version -v 3."
+    }
+  ],
+  "direction_notes": [
+    "Public adapter replay/SVD/Kien-adjacent submissions remain capped around 0.84-0.85 in today's tests.",
+    "The public Quincy model was a plausible 0.87 lead by team association, but scored 0.79, so it is not the leaderboard source.",
+    "Short-term 0.87 requires either a non-public 0.87 adapter source or real error-bucket/trace training; blind public kernel submission is exhausted for the current visible candidates."
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "failedMessages": [
+    "jun12_cycle00_evgendvorkin_latest_probe",
+    "jun12_cycle00b_vng_refine_latest_probe",
+    "jun12_cycle01_mirza_top_scorer_probe",
+    "jun12_cycle02_wethepeople_loraforge_probe",
+    "jun12_cycle03_mirza_top_score_older_probe",
+    "jun12_cycle04_deng_noop_bridge_retry",
+    "jun12_cycle05_johnson_finetuning_probe",
+    "jun12_cycle06_bbob_tier2_lora_probe",
+    "jun12_cycle07_shimoyamas_training_probe",
+    "jun12_cycle08_kuang_087_low_confidence",
+    "jun12_cycle09_finding_nemo_retry"
+  ],
+  "failures": [
+    {
+      "atUtc": "2026-06-12T19:44:26.392631+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun12_cycle00_evgendvorkin_latest_probe",
+        "reason": "Fresh 2026-06-12 COMPLETE run with submission.zip; file is tiny, so this is a quick Code probe only.",
+        "ref": "evgendvorkin/nemotron-3-nano-lora-adapter-submission",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun12_cycle00_evgendvorkin_latest_probe"
+    },
+    {
+      "atUtc": "2026-06-12T19:44:56.876635+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun12_cycle00b_vng_refine_latest_probe",
+        "reason": "Fresh 2026-06-12 COMPLETE run with submission.zip; tiny file and unknown score, quick Code probe only.",
+        "ref": "vngnguynhuy/refine",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun12_cycle00b_vng_refine_latest_probe"
+    },
+    {
+      "atUtc": "2026-06-12T19:45:27.334349+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun12_cycle01_mirza_top_scorer_probe",
+        "reason": "Fresh 2026-06-12 Mirza Top Scorer output with submission.zip; quick Code probe before file fallback.",
+        "ref": "mirzayasirabdullah07/top-scorer-nvidia-nemotron-competition",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun12_cycle01_mirza_top_scorer_probe"
+    },
+    {
+      "atUtc": "2026-06-12T19:45:58.020544+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun12_cycle02_wethepeople_loraforge_probe",
+        "reason": "Recent high-vote output but latest status ERROR; quick Code probe only.",
+        "ref": "wethepeople918/nemotronloraforge",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun12_cycle02_wethepeople_loraforge_probe"
+    },
+    {
+      "atUtc": "2026-06-12T19:46:28.401844+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun12_cycle03_mirza_top_score_older_probe",
+        "reason": "Older high-vote Top Score public output with submission.zip; quick Code probe only.",
+        "ref": "mirzayasirabdullah07/top-score-nvidia-nemotron-competition",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun12_cycle03_mirza_top_score_older_probe"
+    },
+    {
+      "atUtc": "2026-06-12T19:46:58.770342+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun12_cycle04_deng_noop_bridge_retry",
+        "reason": "P1 public output with submission.zip; quick CodeSubmission probe only.",
+        "ref": "denglonghang/nemotron-tinker-noop-bridge-v20",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun12_cycle04_deng_noop_bridge_retry"
+    },
+    {
+      "atUtc": "2026-06-12T19:47:29.153386+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun12_cycle05_johnson_finetuning_probe",
+        "reason": "Training output with submission.zip; quick Code probe.",
+        "ref": "johnsonhk88/nvidia-nemotron-model-fine-tuning",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun12_cycle05_johnson_finetuning_probe"
+    },
+    {
+      "atUtc": "2026-06-12T19:47:59.560824+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun12_cycle06_bbob_tier2_lora_probe",
+        "reason": "Tier-2 LoRA candidate with historical submission.zip; quick Code probe.",
+        "ref": "bbobwayne/nemotron-tier-2-unsloth-lora-r-32",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun12_cycle06_bbob_tier2_lora_probe"
+    },
+    {
+      "atUtc": "2026-06-12T19:48:29.964994+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun12_cycle07_shimoyamas_training_probe",
+        "reason": "Training notebook candidate; quick Code probe if output is available.",
+        "ref": "shimoyamas/nvidia-nemotron-training",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun12_cycle07_shimoyamas_training_probe"
+    },
+    {
+      "atUtc": "2026-06-12T19:49:00.362849+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun12_cycle08_kuang_087_low_confidence",
+        "reason": "Title claims 0.87 but this account measured 0.62 on 2026-06-06; included only as a low-confidence quick probe.",
+        "ref": "kuangyicheng/nemotron-087-training",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun12_cycle08_kuang_087_low_confidence"
+    },
+    {
+      "atUtc": "2026-06-12T19:49:31.008544+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun12_cycle09_finding_nemo_retry",
+        "reason": "Latest status remains ERROR; demoted quick probe only.",
+        "ref": "ayomide2000/finding-nemo",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun12_cycle09_finding_nemo_retry"
+    }
+  ],
+  "requests": [
+    {
+      "atUtc": "2026-06-12T19:50:11.519046+00:00",
+      "candidate": {
+        "kind": "file",
+        "message": "jun12_file_cycle10_minyam_small_upload_smoke",
+        "reason": "Small 51MB fallback; 3GB zips previously timed out and current UTC window is short.",
+        "zip": "outputs/2026-05-26_submit5_cycle01_minyam_kien_v4/submission.zip"
+      },
+      "message": "jun12_file_cycle10_minyam_small_upload_smoke"
+    },
+    {
+      "atUtc": "2026-06-12T20:40:19.597417+00:00",
+      "candidate": {
+        "kind": "file",
+        "message": "jun12_file_cycle11_minyam_small_upload_repeat",
+        "reason": "Small fallback to complete requested count if higher-score routes are blocked.",
+        "zip": "outputs/2026-05-26_submit5_cycle01_minyam_kien_v4/submission.zip"
+      },
+      "message": "jun12_file_cycle11_minyam_small_upload_repeat"
+    },
+    {
+      "atUtc": "2026-06-12T21:41:23.910516+00:00",
+      "candidate": {
+        "kind": "file",
+        "message": "jun12_file_cycle12_minyam_small_upload_repeat2",
+        "reason": "Small fallback to complete requested count if higher-score routes are blocked.",
+        "zip": "outputs/2026-05-26_submit5_cycle01_minyam_kien_v4/submission.zip"
+      },
+      "message": "jun12_file_cycle12_minyam_small_upload_repeat2"
+    }
+  ],
+  "submittedMessages": [
+    "jun12_file_cycle10_minyam_small_upload_smoke",
+    "jun12_file_cycle11_minyam_small_upload_repeat",
+    "jun12_file_cycle12_minyam_small_upload_repeat2"
+  ]
+}

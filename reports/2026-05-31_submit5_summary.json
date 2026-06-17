@@ -1,0 +1,95 @@
+{
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "request": "submit 5 times",
+  "cycle_date_utc": "2026-05-31",
+  "latest_check_utc": "2026-05-31T06:32:45Z",
+  "target_public_score": 0.87,
+  "best_this_cycle": {
+    "description": "may31_cycle04_bbobwayne_tier1_lora_v10",
+    "publicScore": 0.86,
+    "status": "COMPLETE"
+  },
+  "valid_submissions": [
+    {
+      "description": "may31_cycle01_siao_kienngx_fork_v7",
+      "submitted_utc": "2026-05-31T05:06:11Z",
+      "source": "siao112/nemotron-kienngx-fork v7",
+      "status": "COMPLETE",
+      "publicScore": 0.85,
+      "notes": "Kien fork control; did not exceed known Kien/Safar 0.86 line."
+    },
+    {
+      "description": "may31_cycle02_banwait_steroids_v74",
+      "submitted_utc": "2026-05-31T05:06:15Z",
+      "source": "banwait13/nemotron-on-steroids v74",
+      "status": "COMPLETE",
+      "publicScore": 0.48,
+      "notes": "Latest visible steroids output scored poorly; exclude this output line from future queues."
+    },
+    {
+      "description": "may31_cycle03_jeffrey_supervised_tuning_v24",
+      "submitted_utc": "2026-05-31T05:06:18.133Z",
+      "source": "jeffreypikeai/nemotron-supervised-tuning v24",
+      "status": "COMPLETE",
+      "publicScore": 0.80,
+      "notes": "Large SFT adapter underperforms stable 0.85-0.86 anchors."
+    },
+    {
+      "description": "may31_cycle04_bbobwayne_tier1_lora_v10",
+      "submitted_utc": "2026-05-31T05:07:39.493Z",
+      "source": "bbobwayne/nemotron-tier-1-lora-baseline v10",
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "notes": "Best result of this cycle; another confirmation of the 0.86 anchor ceiling."
+    },
+    {
+      "description": "may31_cycle05_safar_lb086_v2_control",
+      "submitted_utc": "2026-05-31T05:11:47.783Z",
+      "source": "safar1/lb-score-0-86 v2",
+      "status": "COMPLETE",
+      "publicScore": 0.85,
+      "notes": "Control repeat; this run returned 0.85 despite prior same source reaching 0.86."
+    }
+  ],
+  "errors_not_counted": [
+    {
+      "description": "daroai/nemotron-lora-r32-qhde-hybrid v18 direct submit",
+      "status": "submit request 400",
+      "notes": "Server-side submit request failed before a submission row was created; not counted."
+    },
+    {
+      "description": "beicicc/nemotron-direct-lopure-amplify-svd-may31 wrapper",
+      "status": "Kaggle kernel ERROR",
+      "notes": "Wrapper did not receive adapter files because kernel_sources output was not mounted in the expected path; log shows FileNotFoundError: adapter_config.json."
+    }
+  ],
+  "public_lb_snapshot": {
+    "top_score": 0.87,
+    "top_teams_seen": [
+      "Y | M | F",
+      "Researcher 7919",
+      "Alehandreus & Yurnero",
+      "Team",
+      "Kh0a",
+      "Lora is all you need",
+      "fate",
+      "JK-Piece",
+      "Surya milenial",
+      "Yoshinari Kawashima",
+      "Michal Gromadzki"
+    ]
+  },
+  "direction_notes": [
+    "No newly discovered 2026-05-31 public output produced a 0.87 result.",
+    "BbobWayne Tier-1 reached 0.86 and should be treated as another stable anchor/control, not a breakthrough.",
+    "Banwait steroids v74 scored 0.48 and should be excluded unless a different verified output appears.",
+    "Jeffrey supervised tuning scored 0.80, below all useful anchors.",
+    "Siao Kien fork and Safar control returned 0.85 in this cycle; both remain Kien-family controls, not 0.87 directions.",
+    "Subagent scan suggests only waiting for verified fresh outputs from kuangyicheng or youkinasa could be worthwhile; otherwise the next substantive direction is controlled cryptarithm/symbolic adapter surgery around the 0.86 anchors."
+  ],
+  "process_notes": [
+    "Official UTC 2026-05-31 submissions started at 0/5; all 5 requested valid submissions completed.",
+    "Stopped a residual kaggle_submit_loop.py before it could consume remaining slots.",
+    "No active Nemotron submit process remained after completion."
+  ]
+}

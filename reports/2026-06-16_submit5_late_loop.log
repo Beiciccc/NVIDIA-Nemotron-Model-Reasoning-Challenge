@@ -1,0 +1,20 @@
+
+===== jun16_late_small_fallback_cycle02 =====
+429 Client Error: Too Many Requests for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/StartSubmissionUpload
+
+RETURNCODE 1
+
+===== jun16_late_small_fallback_cycle03 =====
+429 Client Error: Too Many Requests for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/StartSubmissionUpload
+
+RETURNCODE 1
+
+===== jun16_late_small_fallback_cycle04 =====
+429 Client Error: Too Many Requests for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/StartSubmissionUpload
+
+RETURNCODE 1
+
+===== jun16_late_small_fallback_cycle05 =====
+429 Client Error: Too Many Requests for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/StartSubmissionUpload
+
+RETURNCODE 1

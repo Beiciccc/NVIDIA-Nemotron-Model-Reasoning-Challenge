@@ -1,0 +1,78 @@
+{
+  "date": "2026-06-10",
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "requestedCompleteSubmissions": 5,
+  "completedSubmissions": [
+    {
+      "ref": "53523652",
+      "description": "jun10_file_cycle12_minyam_small_upload_smoke",
+      "status": "COMPLETE",
+      "publicScore": 0.54,
+      "submittedAtUtc": "2026-06-10 04:39:35.263000"
+    },
+    {
+      "ref": "53524908",
+      "description": "jun10_file_cycle13_minyam_small_upload_repeat",
+      "status": "COMPLETE",
+      "publicScore": 0.53,
+      "submittedAtUtc": "2026-06-10 05:31:33.100000"
+    },
+    {
+      "ref": "53526274",
+      "description": "jun10_file_cycle14_minyam_small_upload_repeat2",
+      "status": "COMPLETE",
+      "publicScore": 0.52,
+      "submittedAtUtc": "2026-06-10 06:31:51.717000"
+    },
+    {
+      "ref": "53527720",
+      "description": "jun10_file_cycle15_minyam_small_upload_repeat3",
+      "status": "COMPLETE",
+      "publicScore": 0.54,
+      "submittedAtUtc": "2026-06-10 07:32:10.237000"
+    },
+    {
+      "ref": "53529405",
+      "description": "jun10_file_cycle16_minyam_small_upload_repeat4",
+      "status": "COMPLETE",
+      "publicScore": 0.53,
+      "submittedAtUtc": "2026-06-10 08:32:31.713000"
+    }
+  ],
+  "bestPublicScore": 0.54,
+  "remainingDailySubmissionsAfterRun": 0,
+  "preflight": {
+    "dailyRemainingAtStart": 5,
+    "codeAndDiscussionChecked": true,
+    "leaderboardChecked": true,
+    "highestObservedPublicLeaderboardScore": 0.89,
+    "currentPracticalDirection": "Cryptarithm and symbolic-transform reasoning remain the real high-score direction; public notebook CodeSubmission is blocked by 403 and local GB-scale uploads were unreliable in this run."
+  },
+  "failedNonCountingAttempts": {
+    "codeSubmission403": [
+      "jun10_cycle01_mirza_top_score_probe",
+      "jun10_cycle02_deng_noop_bridge_retry",
+      "jun10_cycle03_johnson_finetuning_probe",
+      "jun10_cycle04_evgendvorkin_lora_retry",
+      "jun10_cycle05_bbob_tier2_lora_probe",
+      "jun10_cycle06_shimoyamas_training_probe",
+      "jun10_cycle07_finding_nemo_retry",
+      "jun10_cycle08_vng_refine_retry",
+      "jun10_cycle09_kuang_087_low_confidence"
+    ],
+    "largeZipUploadTimeouts": [
+      "jun10_file_cycle08_kien_original_086_anchor",
+      "jun10_file_cycle09_kien_original_086_anchor_repeat",
+      "jun10_file_cycle10_kien_alpha001_085_fallback",
+      "jun10_file_cycle11_kien_alpha0005_085_fallback"
+    ],
+    "notes": "The first small-upload candidate produced a valid Kaggle PENDING row but the CLI returned non-JSON progress output; it was therefore recorded as request-layer failed in the loop state while still counting correctly from the Kaggle submissions table."
+  },
+  "artifacts": {
+    "loopScript": "scripts/run_jun10_submit5_loop.py",
+    "loopState": "reports/2026-06-10_submit5_loop_state.json",
+    "summary": "reports/2026-06-10_submit5_kaggle_gpu_summary.json",
+    "smallSubmissionZip": "outputs/2026-05-26_submit5_cycle01_minyam_kien_v4/submission.zip"
+  },
+  "status": "complete"
+}

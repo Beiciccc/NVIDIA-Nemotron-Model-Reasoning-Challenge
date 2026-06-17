@@ -1,0 +1,80 @@
+{
+  "date": "2026-06-11",
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "requestedCompleteSubmissions": 5,
+  "completedSubmissions": [
+    {
+      "ref": "53551233",
+      "description": "jun11_file_cycle10_minyam_small_upload_smoke",
+      "status": "COMPLETE",
+      "publicScore": 0.53,
+      "submittedAtUtc": "2026-06-11 00:14:04.750000"
+    },
+    {
+      "ref": "53552567",
+      "description": "jun11_file_cycle11_minyam_small_upload_repeat",
+      "status": "COMPLETE",
+      "publicScore": 0.54,
+      "submittedAtUtc": "2026-06-11 01:09:18.363000"
+    },
+    {
+      "ref": "53553515",
+      "description": "jun11_file_cycle12_minyam_small_upload_repeat2",
+      "status": "COMPLETE",
+      "publicScore": 0.52,
+      "submittedAtUtc": "2026-06-11 01:59:30.370000"
+    },
+    {
+      "ref": "53554684",
+      "description": "jun11_file_cycle13_minyam_small_upload_repeat3",
+      "status": "COMPLETE",
+      "publicScore": 0.52,
+      "submittedAtUtc": "2026-06-11 02:59:42.323000"
+    },
+    {
+      "ref": "53555721",
+      "description": "jun11_file_cycle14_minyam_small_upload_repeat4",
+      "status": "COMPLETE",
+      "publicScore": 0.52,
+      "submittedAtUtc": "2026-06-11 03:49:53.043000"
+    }
+  ],
+  "bestPublicScore": 0.54,
+  "remainingDailySubmissionsAfterRun": 0,
+  "preflight": {
+    "waitedForNextWindow": true,
+    "windowStartUsedUtc": "2026-06-11T00:05:13Z",
+    "dailyRemainingAtStart": 5,
+    "codeChecked": true,
+    "discussionsChecked": true,
+    "leaderboardChecked": true,
+    "highestObservedPublicLeaderboardScore": 0.89,
+    "notes": "No 2026-06-11 rule or evaluation change was found. 0.87+ leaderboard activity expanded on 2026-06-10, with direction still centered on cryptarithm and symbolic-transform reasoning."
+  },
+  "failedNonCountingAttempts": {
+    "codeSubmission403": [
+      "jun11_cycle00_wethepeople_loraforge_probe",
+      "jun11_cycle00b_mirza_competition_probe",
+      "jun11_cycle01_mirza_top_score_probe",
+      "jun11_cycle02_deng_noop_bridge_retry",
+      "jun11_cycle03_johnson_finetuning_probe",
+      "jun11_cycle04_evgendvorkin_lora_retry",
+      "jun11_cycle05_bbob_tier2_lora_probe",
+      "jun11_cycle06_shimoyamas_training_probe",
+      "jun11_cycle07_finding_nemo_retry",
+      "jun11_cycle08_vng_refine_retry",
+      "jun11_cycle09_kuang_087_low_confidence"
+    ],
+    "notes": "All public CodeSubmission probes were blocked by CreateCodeSubmission 403 and did not create submission rows or consume daily submissions."
+  },
+  "artifacts": {
+    "loopScript": "scripts/run_jun11_submit5_loop.py",
+    "loopState": "reports/2026-06-11_submit5_loop_state.json",
+    "summary": "reports/2026-06-11_submit5_next_window_summary.json",
+    "preflightCode": "reports/2026-06-11_preflight_code.csv",
+    "preflightLeaderboard": "reports/2026-06-11_preflight_leaderboard.csv",
+    "preflightDiscussions": "reports/2026-06-11_preflight_discussions.json",
+    "smallSubmissionZip": "outputs/2026-05-26_submit5_cycle01_minyam_kien_v4/submission.zip"
+  },
+  "status": "complete"
+}

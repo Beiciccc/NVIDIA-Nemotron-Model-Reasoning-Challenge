@@ -1,0 +1,12 @@
+{
+  "candidate_id": "cycle01_kien086_hard_boxed_lr5e7_s16",
+  "seed": 501,
+  "selection": "hard",
+  "limit_records": 128,
+  "max_length": 512,
+  "max_steps": 16,
+  "learning_rate": 5e-7,
+  "batch_size": 1,
+  "grad_accum": 1,
+  "save_adapter": true
+}

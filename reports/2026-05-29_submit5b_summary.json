@@ -1,0 +1,73 @@
+{
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "request": "submit 5 times",
+  "cycle_date_utc": "2026-05-29",
+  "latest_check_utc": "2026-05-29T12:38:37Z",
+  "target_public_score": 0.87,
+  "best_this_cycle": {
+    "description": "may29b_cycle03_safar_lb086_v2",
+    "publicScore": 0.86,
+    "status": "COMPLETE"
+  },
+  "valid_submissions": [
+    {
+      "description": "may29b_cycle01_cocoaai_huikang_087_svd_v3",
+      "submitted_utc": "2026-05-29T11:19:50.967Z",
+      "source": "cocoaai/nvidia-nemotron-huikang-0-87-svd-submit v3",
+      "status": "COMPLETE",
+      "publicScore": 0.85,
+      "notes": "Public 0.87-titled Huikang SVD output did not reproduce 0.87 for this team; consistent with prior Hammad 0.87 mismatch."
+    },
+    {
+      "description": "may29b_cycle02_bobber_vex506_replica_v2",
+      "submitted_utc": "2026-05-29T11:19:53.717Z",
+      "source": "bobber/vex506-reinst-kaggle-replica v2",
+      "status": "COMPLETE",
+      "publicScore": 0.08,
+      "notes": "Very low score; likely unsuitable output packaging or mismatch despite notebook claiming 0.86 replica."
+    },
+    {
+      "description": "may29b_cycle03_safar_lb086_v2",
+      "submitted_utc": "2026-05-29T11:19:56Z",
+      "source": "safar1/lb-score-0-86 v2",
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "notes": "Best result in this cycle; confirms known Kien/Tinker 0.86 ceiling but not 0.87."
+    },
+    {
+      "description": "may29b_cycle04_daro_lumo_public_v11",
+      "submitted_utc": "2026-05-29T11:19:58.307Z",
+      "source": "daroai/nemotron-lora-r32-train-and-submit-lumo-public v11",
+      "status": "COMPLETE",
+      "publicScore": 0.55,
+      "notes": "Small fallback adapter; not a competitive 0.87 direction."
+    },
+    {
+      "description": "may29b_cycle05_cryptozenith_baseline_mmap_may30_v1",
+      "submitted_utc": "2026-05-29T11:32:09.787Z",
+      "source": "cryptozenith/nemotron-baseline-mmap-fix-may30 wrapped by beicicc/nemotron-direct-cryptozenith-baseline-mmap-may29 v1",
+      "status": "COMPLETE",
+      "publicScore": 0.84,
+      "notes": "Fresh 2026-05-29 3.54GB r32 adapter; valid but below Kien/Safar 0.86."
+    }
+  ],
+  "non_submitted_experiments": [
+    {
+      "description": "beicicc/nemotron-087-training-fixed-may29",
+      "status": "Kaggle kernel ERROR",
+      "notes": "Fixed public notebook packaging bug and pushed v1, but Kaggle GPU run failed before producing output; not submitted."
+    }
+  ],
+  "direction_notes": [
+    "Fresh cryptozenith baseline mmap adapter did not improve beyond 0.84.",
+    "Safar 0.86 remains a reproducible 0.86 line; repeated public Kien/Huikang packaging variants do not reach 0.87.",
+    "Public notebooks with 0.87 claims are unreliable unless their own output can be verified and submitted; CocoaAI 0.87 SVD scored 0.85 for this team.",
+    "Bobber VEX506 output is unsafe to reuse without deeper package/content inspection after scoring 0.08.",
+    "Next cycle should prioritize cryptozenith cand-E/D/C wrappers or a locally controlled adapter surgery around Safar/Kien 0.86, not Daro/Lumo fallback or Bobber direct output."
+  ],
+  "process_notes": [
+    "Subagents scanned latest Code/Datasets/Discussions and highlighted cryptozenith datasets as the highest-value new signal.",
+    "No active Nemotron submit process remained after completion.",
+    "All 5 requested submissions returned COMPLETE; no ERROR replacement needed."
+  ]
+}

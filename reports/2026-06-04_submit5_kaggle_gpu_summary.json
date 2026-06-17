@@ -1,0 +1,136 @@
+{
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "request": "submit 5 times using Kaggle GPU / Kaggle Code outputs",
+  "cycle_date_utc": "2026-06-04",
+  "latest_check_utc": "2026-06-04T05:42:26Z",
+  "target_public_score": 0.87,
+  "effective_non_error_submissions": 5,
+  "errors_not_counted": [],
+  "best_this_cycle": {
+    "descriptions": [
+      "jun04_cycle02_mirza_best_nemotron_notebook_v15",
+      "jun04_cycle03_finding_nemo_v17_gpu",
+      "jun04_cycle04_mirza_reasoning_notebook_v2_gpu",
+      "jun04_cycle05_afr1ste_tinker_adapter_guide_v4"
+    ],
+    "publicScore": 0.86,
+    "status": "COMPLETE"
+  },
+  "valid_submissions": [
+    {
+      "ref": 53344855,
+      "description": "jun04_cycle01_siao_kienngx_fork_v18_gpu",
+      "submitted_utc": "2026-06-04T01:01:49.647Z",
+      "source": "siao112/nemotron-kienngx-fork v18",
+      "scriptVersionId": 324343289,
+      "status": "COMPLETE",
+      "publicScore": 0.85,
+      "notes": "Selected from updated public Code metadata with submission.zip and 0.86 bestPublicScore, but reproduced at 0.85 today."
+    },
+    {
+      "ref": 53345916,
+      "description": "jun04_cycle02_mirza_best_nemotron_notebook_v15",
+      "submitted_utc": "2026-06-04T01:57:47.650Z",
+      "source": "mirzayasirabdullah07/best-nvidia-nemotron-notebook v15",
+      "scriptVersionId": 324265484,
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "notes": "Stable public 0.86 reproduction from a fresh high-metadata Kaggle Code output."
+    },
+    {
+      "ref": 53347190,
+      "description": "jun04_cycle03_finding_nemo_v17_gpu",
+      "submitted_utc": "2026-06-04T02:55:58.223Z",
+      "source": "ayomide2000/finding-nemo v17",
+      "scriptVersionId": 324328568,
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "notes": "RTX PRO 6000 Code output with submission.zip; improved over the earlier local v16 reproduction that scored 0.85."
+    },
+    {
+      "ref": 53348388,
+      "description": "jun04_cycle04_mirza_reasoning_notebook_v2_gpu",
+      "submitted_utc": "2026-06-04T03:50:08.613Z",
+      "source": "mirzayasirabdullah07/nvidia-nemotron-model-reasoning-notebook v2",
+      "scriptVersionId": 323850924,
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "notes": "Repeated the known 0.86 Mirza reasoning line; kept as a stable control and did not advance beyond the public 0.86 ceiling."
+    },
+    {
+      "ref": 53349351,
+      "description": "jun04_cycle05_afr1ste_tinker_adapter_guide_v4",
+      "submitted_utc": "2026-06-04T04:38:17.143Z",
+      "source": "afr1ste/nemotron-0-86-tinker-adapter-guide v4",
+      "scriptVersionId": 323628912,
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "notes": "Returned to 0.86 after scoring 0.85 on 2026-06-03, confirming some public-score variance around this adapter family."
+    }
+  ],
+  "candidate_decisions": [
+    {
+      "source": "quan242/nemotron-dataset-gen",
+      "decision": "skip",
+      "reason": "Latest output did not expose a direct submission.zip suitable for competition submission."
+    },
+    {
+      "source": "paultechm/nemotron-baseline-*",
+      "decision": "skip",
+      "reason": "No current usable submission.zip was available from the scanned public outputs."
+    },
+    {
+      "source": "dedquoc/nemotron-fusion",
+      "decision": "skip",
+      "reason": "Subagent metadata check showed bestPublicScore around 0.77, below the stable 0.86 queue."
+    },
+    {
+      "source": "biohack44/nemotron-v62-d3-sparse-trust-finisher-attack v64",
+      "decision": "fallback_not_used",
+      "reason": "Previous local reproduction scored 0.85, so it remained behind the higher-confidence 0.86 candidates."
+    },
+    {
+      "source": "siao112/thk-public-fork-2026-05-15-v14-kienngx v12",
+      "decision": "fallback_not_used",
+      "reason": "Previous local reproduction scored 0.85, so it was kept only as emergency fallback."
+    },
+    {
+      "source": "wethepeople918/steinifrank v6",
+      "decision": "fallback_not_used",
+      "reason": "SteinIFrank-family submissions have been error-prone or very low scoring locally; only suitable after safer 0.86 candidates fail."
+    },
+    {
+      "source": "rohanrk1813/nvidia-comp v4",
+      "decision": "fallback_not_used",
+      "reason": "Usable fallback with submission.zip, but no stronger local evidence than the 0.86 candidates used."
+    }
+  ],
+  "public_sources_checked": [
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/leaderboard",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/code",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion",
+    "https://www.kaggle.com/code/siao112/nemotron-kienngx-fork",
+    "https://www.kaggle.com/code/mirzayasirabdullah07/best-nvidia-nemotron-notebook",
+    "https://www.kaggle.com/code/ayomide2000/finding-nemo",
+    "https://www.kaggle.com/code/mirzayasirabdullah07/nvidia-nemotron-model-reasoning-notebook",
+    "https://www.kaggle.com/code/afr1ste/nemotron-0-86-tinker-adapter-guide"
+  ],
+  "process_notes": [
+    "Before submitting, the loop queried today's remaining submission count and refreshed public Code, Discussion, and Leaderboard context.",
+    "The long polling script was scripts/run_jun04_submit5_loop.py; it waited on each pending submission before moving to the next candidate.",
+    "The cycle stopped automatically once Kaggle reported 5 COMPLETE submissions for 2026-06-04.",
+    "No ERROR submissions occurred during this cycle.",
+    "The fifth submission remained pending for about 64 minutes before returning COMPLETE at publicScore 0.86."
+  ],
+  "direction_notes": [
+    "No actionable public 0.87 reproducible notebook or direct submission.zip was found in the Code and Discussion scan.",
+    "The 0.86 public ceiling is still dominated by public adapter/output reuse; newer public 0.86 metadata does not reliably imply 0.87 potential.",
+    "Today's useful signal is that finding-nemo v17 and the Afr1ste adapter guide both reproduced at 0.86, while Siao/Kien v18 dropped to 0.85.",
+    "Further blind submission of public 0.86 repacks is unlikely to reach 0.87; the next real improvement needs targeted changes to reasoning traces or task-family specialization rather than another near-duplicate public output.",
+    "Risk areas from discussion/code review remain long-CoT truncation, fragile Tinker sampler URI settings, and Kaggle Save Version accelerator mismatches."
+  ],
+  "subagent_notes": [
+    "Dalton scanned public Code metadata and produced the final candidate ordering used for this cycle.",
+    "Einstein scanned Discussion and Leaderboard context and found no direct public 0.87 recipe before or during this cycle."
+  ]
+}

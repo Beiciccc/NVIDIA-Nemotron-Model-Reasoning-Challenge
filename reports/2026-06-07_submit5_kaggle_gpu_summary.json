@@ -1,0 +1,199 @@
+{
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "request": "submit 5 times using Kaggle GPU / Kaggle Code outputs",
+  "cycle_date_utc": "2026-06-07",
+  "latest_check_utc": "2026-06-07T11:32:00Z",
+  "target_public_score": 0.87,
+  "effective_non_error_submissions": 5,
+  "best_this_cycle": {
+    "descriptions": [
+      "jun07_cycle03_debatreya_best086_anchor",
+      "jun07_cycle04_mirza_best086_anchor",
+      "jun07_cycle11_mirza_best086_repeat_anchor"
+    ],
+    "publicScore": 0.86,
+    "status": "COMPLETE"
+  },
+  "valid_submissions": [
+    {
+      "ref": 53442576,
+      "description": "jun07_cycle03_debatreya_best086_anchor",
+      "submitted_utc": "2026-06-07T06:36:21.507Z",
+      "source": "debatreyabiswas/nemotroncomp-best-0-86-solution-nvidia-under-5min v1",
+      "scriptVersionId": 324572187,
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "notes": "Stable 0.86 anchor; reproduced again."
+    },
+    {
+      "ref": 53443877,
+      "description": "jun07_cycle04_mirza_best086_anchor",
+      "submitted_utc": "2026-06-07T07:30:57.633Z",
+      "source": "mirzayasirabdullah07/best-nvidia-nemotron-notebook-0-86 v16",
+      "scriptVersionId": 324524084,
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "notes": "Stable 0.86 anchor; reproduced again."
+    },
+    {
+      "ref": 53445172,
+      "description": "jun07_cycle06_daniel_finding_nemo_anchor",
+      "submitted_utc": "2026-06-07T08:31:10.770Z",
+      "source": "danielsleiman/finding-nemo v1",
+      "scriptVersionId": 324380050,
+      "status": "COMPLETE",
+      "publicScore": 0.85,
+      "notes": "Previously scored 0.86 on 2026-06-05; today fell to 0.85, matching the weakening seen in other finding-nemo-family outputs."
+    },
+    {
+      "ref": 53446641,
+      "description": "jun07_cycle07_afr1ste_tinker_adapter_anchor",
+      "submitted_utc": "2026-06-07T09:36:28.697Z",
+      "source": "afr1ste/nemotron-0-86-tinker-adapter-guide v4",
+      "scriptVersionId": 323628912,
+      "status": "COMPLETE",
+      "publicScore": 0.85,
+      "notes": "Historically 0.86-capable, but returned 0.85 today."
+    },
+    {
+      "ref": 53447857,
+      "description": "jun07_cycle11_mirza_best086_repeat_anchor",
+      "submitted_utc": "2026-06-07T10:33:30.483Z",
+      "source": "mirzayasirabdullah07/best-nvidia-nemotron-notebook-0-86 v16 repeat",
+      "scriptVersionId": 324524084,
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "notes": "Repeat submission used to complete the fifth non-error submission after public-output fallback candidates were blocked by Kaggle 403."
+    }
+  ],
+  "errors_not_counted": [
+    {
+      "message": "jun07_cycle01_mirza_best_model_updated_probe",
+      "source": "mirzayasirabdullah07/best-nvidia-nemotron-model-updated",
+      "status": "not_submitted",
+      "error": "HTTP 403 Forbidden from Kaggle CreateCodeSubmission",
+      "notes": "No row appeared in the submission list, so it did not consume a submission count."
+    },
+    {
+      "message": "jun07_cycle02_jack_tinker_adapter_probe",
+      "source": "jack12xl/tinker-adapter-to-ready-to-submit-adapter",
+      "status": "not_submitted",
+      "error": "HTTP 403 Forbidden from Kaggle CreateCodeSubmission",
+      "notes": "No row appeared in the submission list, so it did not consume a submission count."
+    },
+    {
+      "message": "jun07_cycle05_mirza_model_notebook_anchor",
+      "source": "mirzayasirabdullah07/nvidia-nemotron-model-notebook v3",
+      "status": "not_submitted",
+      "error": "HTTP 403 Forbidden from Kaggle CreateCodeSubmission",
+      "notes": "Previously valid, but blocked today by Kaggle's code submission API."
+    },
+    {
+      "message": "jun07_cycle07_mirza_best_score_public_probe",
+      "source": "mirzayasirabdullah07/best-score-nvidia-nemotron-model",
+      "status": "not_submitted",
+      "error": "HTTP 403 Forbidden from Kaggle CreateCodeSubmission",
+      "notes": "Fresh public Code output looked promising but could not be submitted through the API."
+    },
+    {
+      "message": "jun07_cycle08_scenery_adapter_ensemble_fallback",
+      "source": "scenerysunfireink/nemotron-comp-17-adapter-ensemble-fork",
+      "status": "not_submitted",
+      "error": "HTTP 403 Forbidden from Kaggle CreateCodeSubmission",
+      "notes": "Fallback candidate did not create a submission row."
+    },
+    {
+      "message": "jun07_cycle09_rohan_nvidia_comp_fallback",
+      "source": "rohanrk1813/nvidia-comp",
+      "status": "not_submitted",
+      "error": "HTTP 403 Forbidden from Kaggle CreateCodeSubmission",
+      "notes": "Fallback candidate did not create a submission row."
+    },
+    {
+      "message": "jun07_cycle10_debatreya_best086_repeat_anchor",
+      "source": "debatreyabiswas/nemotroncomp-best-0-86-solution-nvidia-under-5min v1 repeat",
+      "status": "not_submitted",
+      "error": "HTTP 403 Forbidden from Kaggle CreateCodeSubmission",
+      "notes": "Repeat attempt was blocked; Mirza repeat was accepted next."
+    }
+  ],
+  "candidate_decisions": [
+    {
+      "source": "kuangyicheng/nemotron-087-training",
+      "decision": "avoid",
+      "reason": "Submitted on 2026-06-06 and scored only 0.62 despite 0.87 title; latest runs do not override that measured result."
+    },
+    {
+      "source": "mirza updated / best-score public outputs",
+      "decision": "blocked",
+      "reason": "Fresh public Code activity exists, but Kaggle CreateCodeSubmission returned 403, so these did not consume slots and could not be evaluated."
+    },
+    {
+      "source": "debatreyabiswas and mirza best 0.86 anchors",
+      "decision": "stable_control",
+      "reason": "Still reproducible at 0.86 and currently the most reliable public-output family."
+    },
+    {
+      "source": "finding-nemo and afr1ste tinker guide",
+      "decision": "weakened_controls",
+      "reason": "Both returned 0.85 today, so they should be demoted below Debatreya/Mirza anchors."
+    }
+  ],
+  "public_sources_checked": [
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/leaderboard",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/code",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/703240",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/704491",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/704595",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/704473",
+    "https://www.kaggle.com/code/mirzayasirabdullah07/best-score-nvidia-nemotron-model",
+    "https://www.kaggle.com/code/debatreyabiswas/nemotroncomp-best0-86-solution-nvidia-under-5min",
+    "https://www.kaggle.com/code/debatreyabiswas/nemotroncomp-best-0-86-solution-nvidia-under-5min",
+    "https://www.kaggle.com/code/mirzayasirabdullah07/best-nvidia-nemotron-notebook-0-86",
+    "https://www.kaggle.com/code/danielsleiman/finding-nemo",
+    "https://www.kaggle.com/code/afr1ste/nemotron-0-86-tinker-adapter-guide"
+  ],
+  "public_context_summary": {
+    "leaderboard": [
+      {
+        "team": "NullSira",
+        "score": 0.89,
+        "submissionDate": "2026-06-07 07:49:07.733000"
+      },
+      {
+        "team": "Y | M | F",
+        "score": 0.87,
+        "submissionDate": "2026-06-07 10:08:03.820000"
+      },
+      {
+        "team": "Lora is all you need",
+        "score": 0.87,
+        "submissionDate": "2026-06-07 08:45:21.750000"
+      }
+    ],
+    "discussion_signals": [
+      "Discussion 703240 reports large cryptarithm task improvement but still 0.86 overall, suggesting single-task gains can be offset by regressions elsewhere.",
+      "Discussion 704491 continued to focus on non-determinism, making reproducibility and repeated validation important.",
+      "Discussion 704595 keeps pointing at cryptarithm as the likely 0.89 breakthrough area, but no directly reproducible public recipe was exposed."
+    ],
+    "code_signals": [
+      "Fresh public Code included mirzayasirabdullah07/best-score-nvidia-nemotron-model and debatreyabiswas/nemotroncomp-best0-86-solution-nvidia-under-5min.",
+      "Several fresh public Code outputs were blocked by Kaggle 403 through CreateCodeSubmission, so public availability does not guarantee submit eligibility.",
+      "No newly observed public Code output produced a verified 0.87+ public score for this account today."
+    ]
+  },
+  "process_notes": [
+    "The loop queried today's submissions before each action and waited for PENDING rows to become COMPLETE before continuing.",
+    "Two early hidden script instances were stopped to avoid duplicate submissions; their single PENDING row was adopted and tracked.",
+    "scripts/run_jun07_submit5_loop.py exhausted candidates at four COMPLETE submissions; a final one-off Mirza repeat submission completed the fifth non-error submission.",
+    "No Kaggle ERROR rows occurred today. All failed attempts were CreateCodeSubmission HTTP 403 before row creation, so they did not count as submissions."
+  ],
+  "direction_notes": [
+    "The target is real: the leaderboard still has 0.89 and many 0.87 submissions, including fresh 2026-06-07 activity.",
+    "Blind public-output submission is now low yield. Most new public candidates are either blocked by 403 or reproduce 0.85-0.86.",
+    "The next real improvement direction should be a controlled multi-task validation setup: cryptarithm gains must be checked against regressions on other reasoning categories before spending submission slots.",
+    "Keep Debatreya/Mirza best 0.86 as submission-sanity controls only. Demote Daniel finding-nemo and Afr1ste tinker guide after today's 0.85 results.",
+    "Avoid kuang 087, Adil 101, huikang-pure, and other title-only or non-zip lines unless new measured evidence appears."
+  ]
+}

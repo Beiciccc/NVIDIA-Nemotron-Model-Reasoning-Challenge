@@ -1,0 +1,71 @@
+{
+  "artifact_notes": {
+    "cycle06_zip": "outputs/2026-05-24_submit6_cycle06_alpha0005/submission.zip",
+    "cycle06_metadata": [
+      "outputs/2026-05-24_submit6_cycle06_alpha0005/interpolation.json",
+      "outputs/2026-05-24_submit6_cycle06_alpha0005/validation.json"
+    ],
+    "first_upload_attempt": "Reached 100% but failed with ConnectionResetError; Kaggle did not create a submission record, so it did not consume an effective counted submission.",
+    "large_file_sync": "Large zip/weight artifact sync is intentionally excluded from metadata sync due very low remote transfer throughput; local full artifact is retained."
+  },
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "generated_at": "2026-05-24 19:03:17 BST",
+  "records": [
+    {
+      "date": "2026-05-24 08:16:31.807000",
+      "error_description": "",
+      "message": "cycle01_kien086_hard_boxed_lr5e7_s16",
+      "public_score": "0.51",
+      "ref": 52979378,
+      "status": "COMPLETE"
+    },
+    {
+      "date": "2026-05-24 09:50:23",
+      "error_description": "",
+      "message": "cycle02_kien086_original_control",
+      "public_score": "0.86",
+      "ref": 52981802,
+      "status": "COMPLETE"
+    },
+    {
+      "date": "2026-05-24 10:59:04.417000",
+      "error_description": "",
+      "message": "cycle03_evan_axiom_adapter",
+      "public_score": "0.63",
+      "ref": 52983614,
+      "status": "COMPLETE"
+    },
+    {
+      "date": "2026-05-24 12:16:33.283000",
+      "error_description": "Evaluation metric raised an unexpected error",
+      "message": "cycle04_kaicheng_v2_small_adapter",
+      "public_score": "",
+      "ref": 52985694,
+      "status": "ERROR"
+    },
+    {
+      "date": "2026-05-24 12:42:02.177000",
+      "error_description": "",
+      "message": "cycle05_kien_alpha001_residual",
+      "public_score": "0.85",
+      "ref": 52986392,
+      "status": "COMPLETE"
+    },
+    {
+      "date": "2026-05-24 17:02:10.027000",
+      "error_description": "",
+      "message": "cycle06_kien_alpha0005_residual",
+      "public_score": "0.85",
+      "ref": 52994318,
+      "status": "COMPLETE"
+    }
+  ],
+  "strategy_conclusion": {
+    "best_public_score_today": "0.86",
+    "best_submission": "52981802 cycle02_kien086_original_control",
+    "effective_non_error_submissions_today": 5,
+    "next_direction": "Stop spending submissions on Kien residual/interpolation around the destructive cycle01 delta. Alpha 0.01 and 0.005 both scored 0.85, below the original Kien 0.86 control. Next iterations should return to the Kien 0.86 baseline and seek a new signal from data/category-targeted training or a genuinely new public 0.86+ adapter, not smaller residual steps."
+  },
+  "today_count_all": 6,
+  "today_count_non_error": 5
+}

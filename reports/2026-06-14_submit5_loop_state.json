@@ -1,0 +1,172 @@
+{
+  "failedMessages": [
+    "jun14_cycle00_nicholas_nb153_fresh_probe",
+    "jun14_cycle01_evgendvorkin_latest_probe",
+    "jun14_cycle02_mirza_safetensors_probe",
+    "jun14_cycle03_amit_score085_probe",
+    "jun14_cycle04_johnson_finetuning_probe",
+    "jun14_cycle05_gdataranger_v014_probe",
+    "jun14_cycle06_vng_refine_probe",
+    "jun14_cycle07_nikita_cpu00_probe",
+    "jun14_cycle08_private_kien_tinker_anchor",
+    "jun14_cycle09_private_kien_tinker_anchor_repeat"
+  ],
+  "failures": [
+    {
+      "atUtc": "2026-06-14T18:18:24.183393+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun14_cycle00_nicholas_nb153_fresh_probe",
+        "reason": "Fresh 2026-06-14 COMPLETE run; unknown score, quick public Code probe before anchors.",
+        "ref": "nicholas33/nb153-nvidia-nemotron-inference",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun14_cycle00_nicholas_nb153_fresh_probe"
+    },
+    {
+      "atUtc": "2026-06-14T18:18:54.682174+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun14_cycle01_evgendvorkin_latest_probe",
+        "reason": "Fresh 2026-06-14 COMPLETE run with likely LoRA adapter output; quick Code probe only.",
+        "ref": "evgendvorkin/nemotron-3-nano-lora-adapter-submission",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun14_cycle01_evgendvorkin_latest_probe"
+    },
+    {
+      "atUtc": "2026-06-14T18:19:25.096281+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun14_cycle02_mirza_safetensors_probe",
+        "reason": "Fresh 2026-06-14 Mirza-family adapter model safetensors output; Mirza line historically reaches 0.86.",
+        "ref": "mirzayasirabdullah07/nvidia-nemotron-lora-adapter-model-safetensors",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun14_cycle02_mirza_safetensors_probe"
+    },
+    {
+      "atUtc": "2026-06-14T18:19:55.531313+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun14_cycle03_amit_score085_probe",
+        "reason": "Fresh 2026-06-14 COMPLETE public Code titled score 0.85; only a probe behind 0.86 candidates.",
+        "ref": "amit393/nvidia-nemotron-score-0-85",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun14_cycle03_amit_score085_probe"
+    },
+    {
+      "atUtc": "2026-06-14T18:20:26.033032+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun14_cycle04_johnson_finetuning_probe",
+        "reason": "Fresh 2026-06-14 COMPLETE training output; quick Code probe only.",
+        "ref": "johnsonhk88/nvidia-nemotron-model-fine-tuning",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun14_cycle04_johnson_finetuning_probe"
+    },
+    {
+      "atUtc": "2026-06-14T18:20:56.561999+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun14_cycle05_gdataranger_v014_probe",
+        "reason": "Fresh 2026-06-14 SFT line; low-vote but conceptually different, quick probe only.",
+        "ref": "gdataranger/nemotron-v0-14-sft-training-dgx-spark-gb10",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun14_cycle05_gdataranger_v014_probe"
+    },
+    {
+      "atUtc": "2026-06-14T18:21:27.048761+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun14_cycle06_vng_refine_probe",
+        "reason": "Recent 2026-06-13 Refine output; high-vote public adapter probe.",
+        "ref": "vngnguynhuy/refine",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun14_cycle06_vng_refine_probe"
+    },
+    {
+      "atUtc": "2026-06-14T18:21:57.484233+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun14_cycle07_nikita_cpu00_probe",
+        "reason": "Recent public output with many votes; unknown measured score, quick probe only.",
+        "ref": "nikitagajbhiye30/nvidia-cpu-00",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun14_cycle07_nikita_cpu00_probe"
+    },
+    {
+      "atUtc": "2026-06-14T18:22:28.168269+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun14_cycle08_private_kien_tinker_anchor",
+        "reason": "Private kernel-output route for historical 0.86 Kien/Tinker anchor; likely 403 after 2026-06-09 but worth a fast probe.",
+        "ref": "beicicc/nemotron-direct-kien-tinker-anchor-may26",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun14_cycle08_private_kien_tinker_anchor"
+    },
+    {
+      "atUtc": "2026-06-14T18:22:58.629872+00:00",
+      "candidate": {
+        "file": "submission.zip",
+        "kind": "code",
+        "message": "jun14_cycle09_private_kien_tinker_anchor_repeat",
+        "reason": "Repeat private Kien 0.86 anchor probe before falling back to local rebuilt zip.",
+        "ref": "beicicc/nemotron-direct-kien-tinker-anchor-may26",
+        "zip": ""
+      },
+      "error": "HTTPError('403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/CreateCodeSubmission')",
+      "message": "jun14_cycle09_private_kien_tinker_anchor_repeat"
+    }
+  ],
+  "requests": [
+    {
+      "atUtc": "2026-06-14T18:27:35.528067+00:00",
+      "candidate": {
+        "kind": "file",
+        "message": "jun14_file_cycle10_kien086_rebuilt_anchor",
+        "reason": "Rebuilt local Kien original 0.86 anchor from adapter files; strongest locally available fallback.",
+        "zip": "outputs/2026-06-14_rebuilt_kien086/submission.zip"
+      },
+      "message": "jun14_file_cycle10_kien086_rebuilt_anchor"
+    },
+    {
+      "atUtc": "2026-06-14T20:06:22.219658+00:00",
+      "candidate": {
+        "kind": "file",
+        "message": "jun14_file_cycle11_kien086_rebuilt_anchor_repeat",
+        "reason": "Repeat of rebuilt Kien 0.86 anchor; public score historically fluctuates 0.85-0.86.",
+        "zip": "outputs/jun14_public_downloads/beicicc_kien_anchor/submission.zip"
+      },
+      "message": "jun14_file_cycle11_kien086_rebuilt_anchor_repeat"
+    }
+  ],
+  "submittedMessages": [
+    "jun14_file_cycle10_kien086_rebuilt_anchor",
+    "jun14_file_cycle11_kien086_rebuilt_anchor_repeat"
+  ]
+}

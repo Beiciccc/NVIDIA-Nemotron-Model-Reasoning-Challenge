@@ -1,0 +1,131 @@
+{
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "request": "submit 5 times using Kaggle GPU / Kaggle Code outputs",
+  "cycle_date_utc": "2026-06-03",
+  "latest_check_utc": "2026-06-03T09:09:20Z",
+  "target_public_score": 0.87,
+  "effective_non_error_submissions": 5,
+  "best_this_cycle": {
+    "descriptions": [
+      "jun03_cycle01_siao_nemotron_kienngx_fork_v13_gpu",
+      "jun03_cycle05_mirza_reasoning_notebook_v2_gpu"
+    ],
+    "publicScore": 0.86,
+    "status": "COMPLETE"
+  },
+  "valid_submissions": [
+    {
+      "description": "jun03_cycle01_siao_nemotron_kienngx_fork_v13_gpu",
+      "submitted_utc": "2026-06-03T04:19:11.553Z",
+      "source": "siao112/nemotron-kienngx-fork v13",
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "notes": "Best result this cycle; remains a stable public 0.86 control."
+    },
+    {
+      "description": "jun03_cycle02_siao_thk_public_kienngx_v7_gpu",
+      "submitted_utc": "2026-06-03T05:16:30.613Z",
+      "source": "siao112/thk-public-fork-2026-05-15-v14-kienngx v7",
+      "status": "COMPLETE",
+      "publicScore": 0.85,
+      "notes": "Same public family as Siao/Kien but reproduced at 0.85 today."
+    },
+    {
+      "description": "jun03_cycle03_afr1ste_tinker_adapter_guide_v4",
+      "submitted_utc": "2026-06-03T06:14:03.273Z",
+      "source": "afr1ste/nemotron-0-86-tinker-adapter-guide v4",
+      "status": "COMPLETE",
+      "publicScore": 0.85,
+      "notes": "Previously stable 0.86 line returned 0.85 today, confirming leaderboard variance for public 0.86 metadata."
+    },
+    {
+      "description": "jun03_cycle04_siao_thk_public_kienngx_v12_gpu",
+      "submitted_utc": "2026-06-03T07:16:44.377Z",
+      "source": "siao112/thk-public-fork-2026-05-15-v14-kienngx v12",
+      "status": "COMPLETE",
+      "publicScore": 0.85,
+      "notes": "New 2026-06-03 saved version with submission.zip and 0.86 metadata, but public score remained 0.85."
+    },
+    {
+      "description": "jun03_cycle05_mirza_reasoning_notebook_v2_gpu",
+      "submitted_utc": "2026-06-03T08:16:54.723Z",
+      "source": "mirzayasirabdullah07/nvidia-nemotron-model-reasoning-notebook v2",
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "notes": "Unsubmitted today, GPU-enabled output with submission.zip; tied the best 0.86 public score."
+    }
+  ],
+  "errors_not_counted": [],
+  "candidate_decisions": [
+    {
+      "source": "hatrantthanh/speech-technology-rerun",
+      "decision": "skip",
+      "reason": "Latest Code output did not expose submission.zip."
+    },
+    {
+      "source": "jeffreypikeai/nemotron-supervised-tuning v30",
+      "decision": "skip",
+      "reason": "Latest status/output did not expose a stable submission.zip; older versions were below useful anchor scores."
+    },
+    {
+      "source": "johnsonhk88/nvidia-nemotron-model-fine-tuning v11",
+      "decision": "skip",
+      "reason": "Has submission.zip but prior/best metadata was low, around 0.64."
+    },
+    {
+      "source": "evgendvorkin/nemotron-3-nano-lora-adapter-submission v20",
+      "decision": "skip",
+      "reason": "Has submission.zip but low score metadata around 0.55."
+    },
+    {
+      "source": "shimoyamas/nvidia-nemotron-training v14",
+      "decision": "skip",
+      "reason": "No current submission.zip and prior score metadata was low."
+    },
+    {
+      "source": "banwait13/nemotron-on-steroids v77",
+      "decision": "fallback_not_used",
+      "reason": "Latest version has submission.zip, but v74 scored 0.48 locally; only suitable as emergency fallback."
+    },
+    {
+      "source": "rohanrk1813/nvidia-comp v4",
+      "decision": "fallback_not_used",
+      "reason": "GPU-enabled high-visibility output with submission.zip, but no local score history; held as fallback because Mirza v2 completed successfully."
+    },
+    {
+      "source": "ayomide2000/finding-nemo v16",
+      "decision": "fallback_not_used",
+      "reason": "GPU output with 0.86 metadata, but previous local submission scored 0.85."
+    },
+    {
+      "source": "biohack44/nemotron-v62-d3-sparse-trust-finisher-attack v64",
+      "decision": "fallback_not_used",
+      "reason": "GPU output with 0.86 metadata, but previous local submission scored 0.85."
+    }
+  ],
+  "public_sources_checked": [
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/leaderboard",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/code",
+    "https://www.kaggle.com/code/siao112/nemotron-kienngx-fork",
+    "https://www.kaggle.com/code/siao112/thk-public-fork-2026-05-15-v14-kienngx",
+    "https://www.kaggle.com/code/afr1ste/nemotron-0-86-tinker-adapter-guide",
+    "https://www.kaggle.com/code/mirzayasirabdullah07/nvidia-nemotron-model-reasoning-notebook",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/703896",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/703479",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/703798"
+  ],
+  "process_notes": [
+    "Before each new valid submission, the loop queried today's COMPLETE count and refreshed public Code, Discussion, and Leaderboard context.",
+    "The long polling script is scripts/run_jun03_submit5_loop.py; it waited for each PENDING submission before proceeding and stopped after 5 COMPLETE submissions.",
+    "All requested 5 effective submissions completed; no ERROR submissions occurred.",
+    "Evaluation latency for code-output submissions was roughly 52 to 62 minutes each after cycle03."
+  ],
+  "direction_notes": [
+    "No actionable public 0.87 reproducible notebook/output was found during this cycle.",
+    "Visible leaderboard still has multiple private 0.87 teams, but discussion/code scans did not reveal their adapter or recipe.",
+    "Public 0.86 metadata is not reliable evidence of a 0.86 reproduction: three such lines returned 0.85 today.",
+    "Siao/Kien and Mirza reasoning are the only lines that reached 0.86 today.",
+    "The next real improvement direction should be targeted task-category training around symbolic/numeric conversion and cryptarithm/cipher trace quality, not more blind public 0.86 repacks."
+  ]
+}

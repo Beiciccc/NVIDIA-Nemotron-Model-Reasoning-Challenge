@@ -1,0 +1,22 @@
+{
+  "id": "beicicc/nemotron-direct-evan-b15e4820-may29",
+  "title": "nemotron direct evan b15e4820 may29",
+  "code_file": "kernel.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [
+    "nemotron"
+  ],
+  "dataset_sources": [
+    "evanleri/nemotron-b15e-best-adapter-checkpoint-4820-public"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "nvidia-nemotron-model-reasoning-challenge"
+  ],
+  "model_sources": []
+}

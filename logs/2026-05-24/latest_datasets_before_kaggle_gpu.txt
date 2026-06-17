@@ -1,0 +1,24 @@
+/Users/beici/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+ref                                                   title                                            size  lastUpdated                 downloadCount  voteCount  usabilityRating  
+----------------------------------------------------  -----------------------------------------  ----------  --------------------------  -------------  ---------  ---------------  
+danielsamoylov/nemotron-tokens-bit-serial             Nemotron tokens (bit-serial)                 42182262  2026-05-23 20:13:15.803000              4          1  0.25             
+dhanushbe06/nemotron-training-wheels-dataset          nemotron-training-wheels-dataset             83544729  2026-05-23 16:01:07.407000              1          0  0.1875           
+hastws/nemotron-tf55                                  Nemotron Compatible Packages (tf 5.5.4)      11102555  2026-05-23 09:49:54                     1          0  0.25             
+hastws/nemotron-peft                                  Nemotron Compatible PEFT                       492441  2026-05-23 09:31:03.063000              2          0  0.25             
+williamlu931/vcars-offline-wheels                     vcars-offline-wheels                       3785739807  2026-05-23 00:59:12                    16          0  0.1875           
+krishnagupta02468/nemotron-wheels                     nemotron-wheels                            2923032434  2026-05-22 17:24:37.353000              0          0  0.1875           
+danielsamoylov/nemotron-corpus-bit-serial             Nemotron corpus (bit-serial)                 50935005  2026-05-21 20:43:38                    15          0  0.25             
+sethmoudry/nemotron-sft-v32-adapter                   nemotron-sft-v32-adapter                   3273307918  2026-05-20 12:34:28                    29          0  0.25             
+karanbhutaniml/nemotron-teacher-traces-gpt4o-mini     nemotron-teacher-traces-gpt4o-mini            2198759  2026-05-20 10:06:25                    13          0  0.25             
+biohack44/nemotron-balanced-teacher-traces-v3-full    Nemotron Balanced Teacher Traces V3 Full      4307596  2026-05-20 06:24:29.477000             12          0  0.23529412       
+parijit/nemotron-corpus                               nemotron-corpus                              49110076  2026-05-19 21:26:45                    12          0  0.125            
+matthewblakeward/918-nemotron                         918_Nemotron                                  1908123  2026-05-19 06:19:43.303000              9          0  0.23529412       
+damndeepesh/nemotron-test-corpus                      nemotron-test-corpus                         50028231  2026-05-18 23:23:45.993000              1          0  0.1875           
+atahalam/tonghuikang-0-87-nemotron-dataset            tonghuikang-0.87-nemotron-dataset           211762165  2026-05-18 16:12:53                   117          0  0.375            
+shuyi123456/nemotron-training-data                    nemotron_training_data                     9359608281  2026-05-18 11:00:59                     0          0  0.1764706        
+kingkong153/nemotron-adapter-v31                      nemotron-adapter-v31                       3820963822  2026-05-17 17:59:28                    28          0  0.25             
+kunalai005/nemotron-mix-bit-by-bit-reasoning-dataset  Nemotron mix bit by bit reasoning dataset    10726432  2026-05-17 12:14:32.623000             14          0  0.3125           
+waquarahmed1/nemotron-pretrained-cot                  nemotron-pretrained-cot                     538602126  2026-05-17 06:22:32.733000              9          0  0.3529412        
+williamlu931/vcars-external-data                      vcars-external-data                         354046861  2026-05-16 05:26:14.867000              0          0  0.29411766       
+penguin069/nemotron-adapter-run                       nemotron-adapter-run                       1425455568  2026-05-15 07:37:29                    23          0  0.25             

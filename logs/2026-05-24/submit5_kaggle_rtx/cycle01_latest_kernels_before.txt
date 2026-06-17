@@ -1,0 +1,24 @@
+/Users/beici/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+ref                                              title                                 author                  lastRunTime                 totalVotes  
+-----------------------------------------------  ------------------------------------  ----------------------  --------------------------  ----------  
+annabee12/stage2-cc12a-pcc-noskip-ft             stage2-cc12a-pcc-noskip-ft            anna _bee               2026-05-24 06:45:59.687000           0  
+tuantc2306/stage2-cc12b-pcc-skip-ft              stage2-cc12b-pcc-skip-ft              TuanTc2306              2026-05-24 06:45:58.623000           0  
+mohamedamr992/nemotron-replay-0-86               Nemotron+Replay_0.86                  Mohamed Amr992          2026-05-24 06:19:05                  0  
+minyam/nemotron-kienngx-fork                     nemotron-kienngx-fork                 Yam                     2026-05-24 06:10:24.437000           0  
+nguyenducdung1107/notebook-ex-colqwen-layout     [notebook-ex] colqwen layout          NGUYEN DUC DUNG 1107    2026-05-24 05:59:58.627000           2  
+mohamedamr992/end-to-end-finetuning-for-lb-0-83  End-to-end finetuning for LB 0.83     Mohamed Amr992          2026-05-24 05:31:51.123000           0  
+trungminh815/nemotron-audit-compare              nemotron audit_compare                ngahahaha               2026-05-24 05:00:47.797000           0  
+trungminh815/nemotron-validation-audit           nemotron validation_audit             ngahahaha               2026-05-24 04:20:58.923000           1  
+randomhuster/villm-testing-cv-class              ViLLM testing - CV_Class              randomhuster            2026-05-24 04:18:43.017000           2  
+anng1112/lmsweep-cc37-pcc-base-nloops-sweep      lmsweep-cc37-pcc-base-nloops-sweep    Nguyen An               2026-05-24 04:11:51.363000           0  
+tanluu/lmeval-cc36-pcc-base-depth-baseline       lmeval-cc36-pcc-base-depth-baseline   tan luu                 2026-05-24 03:31:52.017000           0  
+johnsmall11/jxg-bss-da5d9e                       jxg-bss da5d9e                        John Small11            2026-05-24 03:30:33.827000           1  
+skripsipesolmokelar/final-predictor-aya-fix      final_predictor_aya_fix               skripsi pesol mo kelar  2026-05-24 03:27:00.963000           1  
+jeffreypikeai/nemotron-model-evaluation          Nemotron: Model Evaluation            Jeffrey Pike            2026-05-24 02:38:51.207000           0  
+thunvng/stage2-cc35c-pcc-modular-fine            stage2-cc35c-pcc-modular-fine         Thuận Vương             2026-05-24 02:32:46.063000           0  
+dnglethnh/stage2-cc35b-pcc-arith-fine            stage2-cc35b-pcc-arith-fine           Dũng Lê Thành           2026-05-24 02:32:43.747000           0  
+tanluu/stage2-cc35a-pcc-parity-fine              stage2-cc35a-pcc-parity-fine          tan luu                 2026-05-24 02:32:41.243000           0  
+nguyenduongtrong/stage2-cc34a-pcc-chain-h0       stage2-cc34a-pcc-chain-h0             Nguyen Duong Trong      2026-05-24 01:40:41.447000           0  
+thunvng/stage2-cc33-pcc-listops-random-r-n16     stage2-cc33-pcc-listops-random-r-n16  Thuận Vương             2026-05-24 01:19:46.703000           0  
+dnglethnh/stage2-cc32-pcc-modular-n24            stage2-cc32-pcc-modular-n24           Dũng Lê Thành           2026-05-24 01:19:40.087000           0  

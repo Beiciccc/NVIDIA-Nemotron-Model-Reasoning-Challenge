@@ -1,0 +1,113 @@
+{
+  "bestTodayPublicScore": 0.86,
+  "candidateMessages": [
+    "may26_cycle03_sangmin_dream_kernel",
+    "may26_cycle04_finding_nemo_public_kernel",
+    "may26_cycle05_kien_tinker_anchor_kernel",
+    "may26_cycle06_huikang_v20_mirror_kernel",
+    "may26_cycle07_backtracking_v20_repeat_kernel",
+    "may26_cycle08_lopure_adapter3_repeat_kernel",
+    "may26_cycle09_lopure_root_repeat_kernel",
+    "may26_cycle10_jeffrey_sft_public_kernel"
+  ],
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "maxDailySubmissions": 5,
+  "remainingEstimateExcludingErrors": 0,
+  "state": {
+    "failedSubmitRequests": [
+      "may26_cycle04_finding_nemo_public_kernel"
+    ],
+    "startedAtUtc": "2026-05-26T10:01:14.229947+00:00",
+    "stoppedReason": "target complete submissions reached",
+    "submitEvents": [
+      {
+        "atUtc": "2026-05-26T10:21:34.619249+00:00",
+        "candidate": {
+          "file": "submission.zip",
+          "kernel": "ayomide2000/finding-nemo",
+          "message": "may26_cycle04_finding_nemo_public_kernel",
+          "reason": "popular public Kien/SVD-style output; may recover stronger Kien conversion",
+          "version": "1"
+        },
+        "returncode": 1,
+        "stdout": "/Users/beici/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020\n  warnings.warn(\n400 Client Error: Bad Request for url: https://www.kaggle.com/api/v1/competitions/submissions/submit-notebook/nvidia-nemotron-model-reasoning-challenge\n"
+      },
+      {
+        "atUtc": "2026-05-26T10:22:17.477325+00:00",
+        "candidate": {
+          "file": "submission.zip",
+          "kernel": "beicicc/nemotron-direct-kien-tinker-anchor-may26",
+          "message": "may26_cycle05_kien_tinker_anchor_kernel",
+          "reason": "known strong Kien anchor family; expected around 0.86",
+          "version": "1"
+        },
+        "returncode": 0,
+        "stdout": "/Users/beici/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020\n  warnings.warn(\n"
+      }
+    ]
+  },
+  "targetComplete": 5,
+  "todayCompleteCount": 5,
+  "todayErrorCount": 0,
+  "todayNonErrorCount": 5,
+  "todayPendingCount": 0,
+  "todayRows": [
+    {
+      "date": "2026-05-26 10:22:16",
+      "description": "may26_cycle05_kien_tinker_anchor_kernel",
+      "errorDescription": "",
+      "privateScore": "",
+      "publicScore": "0.86",
+      "ref": 53048209,
+      "status": "COMPLETE",
+      "totalBytes": 3554385828,
+      "url": "/code/beicicc/nemotron-direct-kien-tinker-anchor-may26?scriptVersionId=322230244"
+    },
+    {
+      "date": "2026-05-26 09:15:47.917000",
+      "description": "may26_cycle03_hammad_original_087",
+      "errorDescription": "",
+      "privateScore": "",
+      "publicScore": "0.84",
+      "ref": 53046517,
+      "status": "COMPLETE",
+      "totalBytes": 3259378804,
+      "url": "/code/hammadfarooq470/agi-for-medal-0-87?scriptVersionId=320549877"
+    },
+    {
+      "date": "2026-05-26 09:14:29",
+      "description": "may26_cycle03_sangmin_dream_kernel",
+      "errorDescription": "",
+      "privateScore": "",
+      "publicScore": "0.64",
+      "ref": 53046472,
+      "status": "COMPLETE",
+      "totalBytes": 4259065317,
+      "url": "/code/beicicc/nemotron-sangmin-dream26?scriptVersionId=322232701"
+    },
+    {
+      "date": "2026-05-26 08:03:22.543000",
+      "description": "may26_cycle01_syu_v66_kernel_output",
+      "errorDescription": "",
+      "privateScore": "",
+      "publicScore": "0.53",
+      "ref": 53044525,
+      "status": "COMPLETE",
+      "totalBytes": 3814246936,
+      "url": "/code/syu21125/nemotron-v66-submit?scriptVersionId=322186170"
+    },
+    {
+      "date": "2026-05-26 08:01:34.707000",
+      "description": "may26_cycle01_minyam_kien_v4_repacked",
+      "errorDescription": "",
+      "privateScore": "",
+      "publicScore": "0.52",
+      "ref": 53044471,
+      "status": "COMPLETE",
+      "totalBytes": 53890267,
+      "url": "/submissions/53044471/53044471.raw"
+    }
+  ],
+  "todayUtc": "2026-05-26",
+  "updatedAtUtc": "2026-05-26T11:35:53.682315+00:00"
+}

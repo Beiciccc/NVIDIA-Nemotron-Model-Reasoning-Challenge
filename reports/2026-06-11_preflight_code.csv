@@ -1,0 +1,51 @@
+ref,title,author,lastRunTime,totalVotes
+ayomide2000/finding-nemo,finding nemo,Ayomide2000,2026-06-10 22:02:28.620000,110
+wethepeople918/nemotronloraforge,NemotronLoraForge,Nine1Eight,2026-06-10 21:30:21.783000,100
+evgendvorkin/nemotron-3-nano-lora-adapter-submission,Nemotron-3 Nano: LoRA Adapter Submission,Дворкин Евгений Владимирович,2026-06-10 20:47:55.217000,25
+vaibhav2kesri/try-custom-cot,Try custom CoT,vaibhav kesri,2026-06-10 18:17:30.970000,4
+mirzayasirabdullah07/nvidia-nemotron-competition,NVIDIA Nemotron Competition ,Mirza Yasir Abdullah Baig,2026-06-10 18:01:19.097000,103
+vngnguynhuy/refine,Refine,Vương Nguyễn Huy,2026-06-10 17:08:09.200000,67
+johnsonhk88/nvidia-nemotron-model-fine-tuning,Nvidia-Nemotron Model Fine Tuning,Johnson chong,2026-06-10 14:57:19.223000,2
+habanwer/nemotron-atlas,Nemotron ATLAS,Shehab Anwer,2026-06-10 12:25:49.260000,5
+rauffauzanrambe/lora-nemo-pipeline-improve-modular-v2,LoRA NEMO Pipeline Improve Modular V2,Ra'uf Fauzan Rambe,2026-06-10 12:10:05.950000,24
+dhanushbe06/huikang-pure,huikang_pure,Dhanush BE,2026-06-10 11:57:33.117000,7
+nguyenducdung1107/notebook-ex-colqwen-layout-rvq,[notebook-ex] colqwen layout  RVQ,NGUYEN DUC DUNG 1107,2026-06-10 06:49:37.987000,3
+johnsmall11/jxg-bss-da5d9e,jxg-bss da5d9e,John Small11,2026-06-10 04:53:36.027000,1
+varianceofx/synthetic-dataset-generator-27k,synthetic-dataset-generator-27k,varianceofx,2026-06-10 02:46:48.397000,9
+bbobwayne/nemotron-tier-2-unsloth-lora-r-32,Nemotron Tier-2 Unsloth LoRA r 32,bbobWayne,2026-06-10 01:00:49.627000,3
+shimoyamas/nvidia-nemotron-training,NVIDIA Nemotron - training,simo,2026-06-10 00:24:22.243000,1
+pajakchaithongchai/new-benchmark-task-e1e79,New Benchmark Task e1e79,PAJAKCHAI THONGCHAI,2026-06-09 22:49:58.033000,2
+thinam3/notebook-test-rvq-colpali-mmdocir-layout-level,[Notebook] test RVQ Colpali MMDocIR layout-level,Thái Nam(3),2026-06-09 18:39:16.227000,0
+nguyenducdung1107/notebook-ex-colqwen-layout,[notebook-ex] colqwen layout ,NGUYEN DUC DUNG 1107,2026-06-09 15:00:55.567000,2
+kuangyicheng/nemotron-087-training,nemotron-087-training,AbsoluterGeist,2026-06-09 12:32:29.913000,54
+lopure/lora-adapter-ensembling-experiments,LoRa Adapter Ensembling Experiments,Who am I?,2026-06-09 10:09:34.490000,12
+adilshamim8/nvidia-nemotron-model-reasoning-challenge-101,NVIDIA Nemotron Model Reasoning Challenge 101,Adil Shamim,2026-06-09 05:26:18.420000,32
+nicholas33/nb153-nvidia-nemotron-inference,NB153 || NVIDIA NEMOTRON INFERENCE,NikolAiD153,2026-06-09 04:07:10.130000,0
+biohack44/nemotron-v62-d3-sparse-trust-finisher-attack,Nemotron v62 — D3 Sparse-Trust Finisher Attack,Emre Cirak,2026-06-08 19:58:47.177000,25
+duongnguyen291/080626-slt-csl-abl-cpi-1l4h-geobias,080626-SLT-CSL-Abl-CPI-1L4H-GeoBias,duongnguyen291,2026-06-08 15:23:25.467000,2
+thinam3/notebook-rvq-colpali-mmdocir-layout-level,[Notebook] RVQ Colpali MMDocIR layout-level ,Thái Nam(3),2026-06-08 12:03:46.370000,0
+debatreyabiswas/nemotroncomp-best0-86-solution-nvidia-under-5min,NemotronCOMP best0.86+ solution NVIDIA(under 5min),Debatreya Biswas,2026-06-08 10:13:21.160000,103
+denglonghang/nemotron-tinker-noop-bridge-v20,Nemotron Tinker Noop Bridge V20,Codex_PRO,2026-06-08 07:28:51.987000,5
+xuanhuydinh/machinetranslatelstm,MachineTranslateLSTM,Xuan Huy Dinh,2026-06-08 06:52:23.620000,1
+dhanushbe06/class-tagging,class tagging,Dhanush BE,2026-06-08 06:49:55.037000,0
+lopure/amplify-top-50-singular-value-retain-84-4-energy,Amplify Top 50% singular value&retain 84.4% Energy,Who am I?,2026-06-08 05:52:46.693000,103
+ththunyhunh/bai5-al-b10,BAI5_AL_B10,Thị Thu Ny Huỳnh,2026-06-08 04:13:49.423000,1
+fatmaanalytics/nemotron-reasoning-bit-serial-chain-of-thought,Nemotron Reasoning: Bit-Serial Chain-of-Thought,Fatma  ANALYTICS,2026-06-07 22:39:29.990000,0
+matthewblakeward/lossless,Lossless,Matthew Blake Ward,2026-06-07 19:22:28.697000,55
+nthday/exact,exact,Hảo Nguyễn Thanh,2026-06-07 18:52:28.453000,0
+camvsfd/notebook-encode-mmdoci-page,[Notebook] Encode_MMDocI_Page,cóa má,2026-06-07 18:39:06.913000,0
+nguyenducdung1107/notebook-ex-colsmol500layoutrvq, [notebook-ex]Colsmol500layoutRVQ,NGUYEN DUC DUNG 1107,2026-06-07 17:56:34.147000,3
+huyvunguyennnn/6-03-phamcuongg,6-03-phamcuongg,Huy vũ Nguyễn,2026-06-07 16:43:17.973000,1
+ththunyhunh/bai-5-al-dd,BAI_5_AL_dd,Thị Thu Ny Huỳnh,2026-06-07 15:45:51.173000,0
+koushikrudra/nemotron-verify-finding-nemo,Nemotron Verify Finding Nemo,Koushik Rudra,2026-06-07 15:03:06.587000,20
+jeffreypikeai/nemotron-model-evaluation,Nemotron: Model Evaluation,Jeffrey Pike,2026-06-07 12:38:42.263000,3
+nguyenducdung1107/notebook-train-rvq-colsmol-vidore,[notebook] Train RVQ ColSmol ViDoRe,NGUYEN DUC DUNG 1107,2026-06-07 12:34:42.450000,0
+krishnagupta02468/tinker-submission-notebook,Tinker submission notebook,KG,2026-06-07 09:05:11.357000,0
+pkuszboi/grpo-nvidia-nemotron,GRPO-Nvidia-Nemotron,GUOHAOYANG,2026-06-07 04:14:34.527000,0
+amit393/nvidia-nemotron-score-0-60,NVIDIA Nemotron  score 0.60,Amit393,2026-06-07 02:02:05.903000,11
+pranaydoijad/nemotron-v2,Nemotron‑v2,PranayDoijad,2026-06-06 16:39:10.393000,1
+doijads/nemotron-dpo,Nemotron DPO ,Doijads,2026-06-06 14:40:34.850000,0
+namthi/notebook-colsmol500layoutrvq-namtd, [Notebook]Colsmol500layoutRVQ_NamTD,Nam Thái,2026-06-06 12:15:45.700000,0
+bayeshead/notebook834d2978c8,notebook834d2978c8,bayeshead,2026-06-06 11:33:29.830000,0
+umerhaddii/nvidia-nemotron-n5,NVIDIA Nemotron - N5,Umer Haddii,2026-06-06 10:54:58.513000,7
+jack12xl/tinker-adapter-to-ready-to-submit-adapter,Tinker Adapter to Ready To Submit Adapter,Jack12xl,2026-06-06 10:18:25.210000,10

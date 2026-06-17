@@ -1,0 +1,78 @@
+{
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "request": "submit 5 times, target 0.87",
+  "cycle_date_utc": "2026-05-30",
+  "latest_check_utc": "2026-05-30T01:42:52Z",
+  "target_public_score": 0.87,
+  "best_this_cycle": {
+    "description": "may30_cycle04_cryptozenith_cand_d_v1",
+    "publicScore": 0.52,
+    "status": "COMPLETE"
+  },
+  "valid_submissions": [
+    {
+      "description": "may30_cycle01_cryptozenith_cand_a_v1",
+      "submitted_utc": "2026-05-30T00:14:25.137Z",
+      "source": "cryptozenith/nemotron-vast-cand-a-fixed wrapped by beicicc/nemotron-direct-cryptozenith-cand-a-may30 v1",
+      "status": "COMPLETE",
+      "publicScore": 0.49
+    },
+    {
+      "description": "may30_cycle02_cryptozenith_cand_b_v1",
+      "submitted_utc": "2026-05-30T00:14:28.473Z",
+      "source": "cryptozenith/nemotron-vast-cand-b-fixed wrapped by beicicc/nemotron-direct-cryptozenith-cand-b-may30 v1",
+      "status": "COMPLETE",
+      "publicScore": 0.50
+    },
+    {
+      "description": "may30_cycle03_cryptozenith_cand_c_v1",
+      "submitted_utc": "2026-05-30T00:14:30.837Z",
+      "source": "cryptozenith/nemotron-vast-cand-c-fixed wrapped by beicicc/nemotron-direct-cryptozenith-cand-c-may30 v1",
+      "status": "COMPLETE",
+      "publicScore": 0.47
+    },
+    {
+      "description": "may30_cycle04_cryptozenith_cand_d_v1",
+      "submitted_utc": "2026-05-30T00:16:52.013Z",
+      "source": "cryptozenith/nemotron-vast-cand-d-fixed wrapped by beicicc/nemotron-direct-cryptozenith-cand-d-may30 v1",
+      "status": "COMPLETE",
+      "publicScore": 0.52
+    },
+    {
+      "description": "may30_cycle05_cryptozenith_cand_e_v1",
+      "submitted_utc": "2026-05-30T00:16:54.123Z",
+      "source": "cryptozenith/nemotron-vast-cand-e-fixed wrapped by beicicc/nemotron-direct-cryptozenith-cand-e-may30 v1",
+      "status": "COMPLETE",
+      "publicScore": 0.50
+    }
+  ],
+  "errors_not_counted": [],
+  "public_lb_snapshot": {
+    "top_score": 0.87,
+    "top_teams_seen": [
+      "Y | M | F",
+      "Researcher 7919",
+      "Alehandreus & Yurnero",
+      "Team",
+      "Lora is all you need",
+      "Kh0a",
+      "fate",
+      "JK-Piece",
+      "Surya milenial",
+      "Yoshinari Kawashima",
+      "Michal Gromadzki"
+    ]
+  },
+  "direction_notes": [
+    "Cryptozenith cand A-E are all weak public-LB candidates, scoring 0.47-0.52 despite valid 3.54GB r32 adapter packaging.",
+    "The previous cryptozenith baseline mmap adapter scored 0.84, so the cand A-E variants are not monotonic improvements and should be excluded from future submit queues.",
+    "Latest high-visibility kernels checked at cycle start did not expose usable submission outputs: bbobwayne tier-2 had no output at scan time, sigilagigold/noiseout had no current usable output, banwait steroids had only support files, and gdataranger was a demo/HF adapter path.",
+    "The stable ceiling remains Safar/Kien/Huikang 0.86; blind public adapter submission is now low-value. Future work should focus on controlled cryptarithm/symbolic CoT adapter surgery or wait for a verified new 0.87 output."
+  ],
+  "process_notes": [
+    "Official daily cap checked by subagent as maxDailySubmissions=5; UTC 2026-05-30 started with 0 submissions.",
+    "Created and pushed five private wrapper kernels for cryptozenith cand A-E, then submitted all five outputs.",
+    "All five requested submissions returned COMPLETE; no ERROR replacement was needed.",
+    "No active Nemotron submit process remained after completion."
+  ]
+}

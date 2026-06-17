@@ -1,0 +1,38 @@
+{
+  "bestTodayPublicScore": 0.0,
+  "candidateMessages": [
+    "may27_cycle01_finding_nemo_latest",
+    "may27_cycle02_replay_data_086",
+    "may27_cycle03_unsloth_4hours",
+    "may27_cycle04_kien_anchor_086",
+    "may27_cycle05_atlas_public",
+    "may27_cycle06_backtracking_v20_fallback",
+    "may27_cycle07_huikang_v20_mirror_fallback"
+  ],
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "maxDailySubmissions": 5,
+  "remainingEstimateExcludingErrors": 4,
+  "state": {
+    "startedAtUtc": "2026-05-27T00:33:27.615305+00:00"
+  },
+  "targetComplete": 5,
+  "todayCompleteCount": 0,
+  "todayErrorCount": 0,
+  "todayNonErrorCount": 1,
+  "todayPendingCount": 1,
+  "todayRows": [
+    {
+      "date": "2026-05-27 00:31:58",
+      "description": "may27_cycle04_kien_anchor_086",
+      "errorDescription": "",
+      "privateScore": "",
+      "publicScore": "",
+      "ref": 53065979,
+      "status": "PENDING",
+      "totalBytes": 3554385828,
+      "url": "/code/beicicc/nemotron-direct-kien-tinker-anchor-may26?scriptVersionId=322230244"
+    }
+  ],
+  "todayUtc": "2026-05-27",
+  "updatedAtUtc": "2026-05-27T00:33:27.906762+00:00"
+}

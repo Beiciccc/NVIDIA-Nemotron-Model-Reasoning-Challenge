@@ -1,0 +1,69 @@
+{
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "cycleDateUtc": "2026-06-08",
+  "latestCheckUtc": "2026-06-08T19:26:23.951Z",
+  "targetComplete": 5,
+  "completeToday": 5,
+  "remainingToday": 0,
+  "pendingToday": [],
+  "errorToday": [],
+  "submittedCandidates": [
+    {
+      "ref": 53479794,
+      "message": "jun08_file_cycle01_kien_original_086",
+      "zip": "outputs/2026-05-24_submit5_cycle02_kien_original/submission.zip",
+      "bytes": 3268292277,
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "submittedUtc": "2026-06-08T14:03:43.830Z"
+    },
+    {
+      "ref": 53481802,
+      "message": "jun08_file_cycle02_kien_original_086_repeat",
+      "zip": "outputs/2026-05-24_submit5_cycle02_kien_original/submission.zip",
+      "bytes": 3268292277,
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "submittedUtc": "2026-06-08T15:15:41.160Z"
+    },
+    {
+      "ref": 53483317,
+      "message": "jun08_file_cycle03_kien_original_086_repeat",
+      "zip": "outputs/2026-05-24_submit5_cycle02_kien_original/submission.zip",
+      "bytes": 3268292277,
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "submittedUtc": "2026-06-08T16:16:28.043Z"
+    },
+    {
+      "ref": 53484807,
+      "message": "jun08_file_cycle04_kien_original_086_repeat",
+      "zip": "outputs/2026-05-24_submit5_cycle02_kien_original/submission.zip",
+      "bytes": 3268292277,
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "submittedUtc": "2026-06-08T17:32:02.777Z"
+    },
+    {
+      "ref": 53485806,
+      "message": "jun08_file_cycle05_kien_original_086_repeat",
+      "zip": "outputs/2026-05-24_submit5_cycle02_kien_original/submission.zip",
+      "bytes": 3268292277,
+      "status": "COMPLETE",
+      "publicScore": 0.85,
+      "submittedUtc": "2026-06-08T18:31:14.007Z"
+    }
+  ],
+  "candidateQueueRemainder": [
+    {
+      "message": "jun08_file_cycle06_kien_alpha001_fallback",
+      "zip": "outputs/2026-05-24_submit5_cycle03_alpha001/submission.zip",
+      "reason": "Fallback was not used because targetComplete was reached."
+    },
+    {
+      "message": "jun08_file_cycle07_kien_alpha0005_fallback",
+      "zip": "outputs/2026-05-24_submit6_cycle06_alpha0005/submission.zip",
+      "reason": "Fallback was not used because targetComplete was reached."
+    }
+  ]
+}

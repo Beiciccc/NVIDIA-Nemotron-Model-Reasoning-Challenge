@@ -1,0 +1,90 @@
+{
+  "dateUtc": "2026-06-14",
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "requestedCompleteSubmissions": 5,
+  "completedSubmissions": 5,
+  "dailyRemainingAfterRun": 0,
+  "bestPublicScore": 0.86,
+  "submissions": [
+    {
+      "ref": "53684015",
+      "submittedAt": "2026-06-14 18:27:33.710000",
+      "description": "jun14_file_cycle10_kien086_rebuilt_anchor",
+      "status": "COMPLETE",
+      "publicScore": 0.51,
+      "path": "outputs/2026-06-14_rebuilt_kien086/submission.zip",
+      "note": "Bad rebuilt zip; adapter_config differed from the historical Kien anchor and scored like the low fallback line."
+    },
+    {
+      "ref": "53686119",
+      "submittedAt": "2026-06-14 20:06:20.473000",
+      "description": "jun14_file_cycle11_kien086_rebuilt_anchor_repeat",
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "path": "outputs/jun14_public_downloads/beicicc_kien_anchor/submission.zip",
+      "note": "Correct original private Kien anchor output downloaded from Kaggle; restored the 0.86 line."
+    },
+    {
+      "ref": "53687854",
+      "submittedAt": "2026-06-14 21:29:44.067000",
+      "description": "jun14_file_cycle12_small_fallback_after_kien_upload_reset",
+      "status": "COMPLETE",
+      "publicScore": 0.52,
+      "path": "outputs/2026-05-26_submit5_cycle01_minyam_kien_v4/submission.zip",
+      "note": "Used to complete the requested count after a second 3.3GB Kien upload reset at 100%."
+    },
+    {
+      "ref": "53687865",
+      "submittedAt": "2026-06-14 21:30:22.097000",
+      "description": "jun14_file_cycle13_small_fallback_after_kien_upload_reset",
+      "status": "COMPLETE",
+      "publicScore": 0.53,
+      "path": "outputs/2026-05-26_submit5_cycle01_minyam_kien_v4/submission.zip",
+      "note": "Count-completion fallback; not a scoring direction."
+    },
+    {
+      "ref": "53687872",
+      "submittedAt": "2026-06-14 21:30:52.053000",
+      "description": "jun14_file_cycle14_small_fallback_after_kien_upload_reset",
+      "status": "COMPLETE",
+      "publicScore": 0.52,
+      "path": "outputs/2026-05-26_submit5_cycle01_minyam_kien_v4/submission.zip",
+      "note": "Count-completion fallback; not a scoring direction."
+    }
+  ],
+  "blockedCodeSubmissionAttempts": [
+    "jun14_cycle00_nicholas_nb153_fresh_probe",
+    "jun14_cycle01_evgendvorkin_latest_probe",
+    "jun14_cycle02_mirza_safetensors_probe",
+    "jun14_cycle03_amit_score085_probe",
+    "jun14_cycle04_johnson_finetuning_probe",
+    "jun14_cycle05_gdataranger_v014_probe",
+    "jun14_cycle06_vng_refine_probe",
+    "jun14_cycle07_nikita_cpu00_probe",
+    "jun14_cycle08_private_kien_tinker_anchor",
+    "jun14_cycle09_private_kien_tinker_anchor_repeat"
+  ],
+  "recoveredArtifacts": {
+    "correctKienAnchorZip": {
+      "path": "outputs/jun14_public_downloads/beicicc_kien_anchor/submission.zip",
+      "sha256": "a82f37d670f516232821178d10ab718a6e24db119b3fdc0c39d9ae14b7f243f8",
+      "bytes": 3554385828,
+      "publicScoreObservedThisRun": 0.86
+    },
+    "badRebuiltZip": {
+      "path": "outputs/2026-06-14_rebuilt_kien086/submission.zip",
+      "sha256": "5359103e8ae6e00db9392a9b9490a70573c746696cadc53d16c9539001a711f9",
+      "bytes": 2480149583,
+      "publicScoreObservedThisRun": 0.51
+    }
+  },
+  "preflight": {
+    "submissionsRemainingAtStart": 5,
+    "leaderboardSnapshot": "reports/2026-06-14_preflight_leaderboard.csv",
+    "codeSnapshot": "reports/2026-06-14_preflight_code.csv",
+    "discussionsSnapshot": "reports/2026-06-14_preflight_discussions.json",
+    "leaderboardObservation": "Top remained 0.90; 59 teams were at or above 0.87 in the downloaded snapshot.",
+    "discussionObservation": "No rule/eval change. New discussion reinforced that cryptarithm is not a blind target; strongest next direction is gated, mechanically verified symbolic traces plus adapter QA."
+  },
+  "iterationConclusion": "The correct 0.86 Kien anchor was recovered and verified, but large uploads are fragile near the deadline. The bad rebuilt adapter scored 0.51 because it was not equivalent to the historical Kien submission. Future loops should use the recovered original zip for sanity only; real upside remains format/solver/adapter QA experiments, not repeated small fallback uploads."
+}

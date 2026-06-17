@@ -1,0 +1,30 @@
+{
+  "id": "beicicc/nemotron-atlas26a",
+  "title": "nemotron atlas26a",
+  "code_file": "kernel.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [
+    "artificial intelligence",
+    "python",
+    "research",
+    "general knowledge and reasoning",
+    "gpu"
+  ],
+  "dataset_sources": [
+    "kishanvavdara/nemotron-reasoning-traj"
+  ],
+  "kernel_sources": [
+    "ryanholbrook/nvidia-utility-script"
+  ],
+  "competition_sources": [
+    "nvidia-nemotron-model-reasoning-challenge"
+  ],
+  "model_sources": [
+    "metric/nemotron-3-nano-30b-a3b-bf16/Transformers/default/1"
+  ]
+}

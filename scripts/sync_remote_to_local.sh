@@ -2,11 +2,11 @@
 set -euo pipefail
 
 LOCAL_DIR="${LOCAL_DIR:-$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)}"
-REMOTE_USER="${REMOTE_USER:-featurize}"
-REMOTE_HOST="${REMOTE_HOST:-workspace.featurize.cn}"
-REMOTE_PORT="${REMOTE_PORT:-14114}"
-REMOTE_DIR="${REMOTE_DIR:-/home/featurize/nemotron}"
-SSH_KEY="${SSH_KEY:-$HOME/.ssh/featurize_nemotron}"
+REMOTE_USER="${REMOTE_USER:?set REMOTE_USER}"
+REMOTE_HOST="${REMOTE_HOST:?set REMOTE_HOST}"
+REMOTE_PORT="${REMOTE_PORT:-22}"
+REMOTE_DIR="${REMOTE_DIR:?set REMOTE_DIR}"
+SSH_KEY="${SSH_KEY:-$HOME/.ssh/nemotron_remote}"
 SYNC_INTERVAL="${SYNC_INTERVAL:-600}"
 
 run_sync() {

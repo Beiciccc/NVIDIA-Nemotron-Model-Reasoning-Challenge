@@ -1,0 +1,46 @@
+{
+  "name": "mirza_best086_anchor",
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "status": "published-source-and-score-manifest",
+  "bestPrivateSubmission": {
+    "ref": "53447857",
+    "description": "jun07_cycle11_mirza_best086_repeat_anchor",
+    "submittedAt": "2026-06-07 10:33:30.483000",
+    "publicScore": 0.86,
+    "privateScore": 0.864,
+    "sourceKernel": "mirzayasirabdullah07/best-nvidia-nemotron-notebook-0-86",
+    "sourceKernelVersion": 16,
+    "scriptVersionId": 324524084
+  },
+  "highestPublicSubmissionTie": {
+    "ref": "53443877",
+    "description": "jun07_cycle04_mirza_best086_anchor",
+    "submittedAt": "2026-06-07 07:30:57.633000",
+    "publicScore": 0.864,
+    "privateScore": 0.86,
+    "sourceKernel": "mirzayasirabdullah07/best-nvidia-nemotron-notebook-0-86",
+    "sourceKernelVersion": 16,
+    "scriptVersionId": 324524084
+  },
+  "archivedSourceLineage": {
+    "loopScript": "scripts/run_jun07_submit5_loop.py",
+    "cycleSummary": "reports/2026-06-07_submit5_kaggle_gpu_summary.json",
+    "allSubmissionsSnapshot": "reports/2026-06-17_all_submissions_snapshot.csv"
+  },
+  "currentPublicMirzaNotebooksPulledOn2026_06_17": [
+    {
+      "kernel": "mirzayasirabdullah07/nvidia-nemotron-notebook-final-code",
+      "path": "solutions/mirza_best086_anchor/public_final_code"
+    },
+    {
+      "kernel": "mirzayasirabdullah07/nvidia-nemotron-lora-adapter-model-safetensors",
+      "path": "solutions/mirza_best086_anchor/public_adapter_safetensors"
+    }
+  ],
+  "binaryArtifact": {
+    "fileName": "submission.zip",
+    "gitStatus": "not committed",
+    "reason": "multi-GB Kaggle adapter output; normal GitHub repositories reject files over 100 MiB",
+    "originalKernelPullStatus": "kaggle kernels pull mirzayasirabdullah07/best-nvidia-nemotron-notebook-0-86 returned 404 on 2026-06-17"
+  }
+}

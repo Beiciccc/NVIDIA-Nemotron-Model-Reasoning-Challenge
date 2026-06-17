@@ -1,0 +1,22 @@
+{
+  "id": "beicicc/nemotron-direct-kien-tinker-anchor-may26",
+  "title": "nemotron direct kien tinker anchor may26",
+  "code_file": "kernel.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [
+    "nemotron"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "nvidia-nemotron-model-reasoning-challenge"
+  ],
+  "model_sources": [
+    "kienngx/nemotron-nano-30b-trained/Triton/tinker-adapter/1"
+  ]
+}

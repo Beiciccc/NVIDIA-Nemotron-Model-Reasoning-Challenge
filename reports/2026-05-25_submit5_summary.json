@@ -1,0 +1,60 @@
+{
+  "date": "2026-05-25",
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "requested_cycles": 5,
+  "effective_non_error_submissions": 5,
+  "best_public_score": 0.86,
+  "submissions": [
+    {
+      "ref": 53012249,
+      "description": "may25_cycle01_kien_original_086_anchor",
+      "status": "COMPLETE",
+      "public_score": 0.86,
+      "notes": "Stable Kien original anchor; remains best public score today."
+    },
+    {
+      "ref": 53012230,
+      "description": "cycle20260525_01_kien086_original_control",
+      "status": "COMPLETE",
+      "public_score": 0.85,
+      "notes": "Control resubmission of Kien-family artifact."
+    },
+    {
+      "ref": 53016071,
+      "description": "may25_cycle03_lopure_root_kernel_fixed",
+      "status": "COMPLETE",
+      "public_score": 0.84,
+      "notes": "Submitted from Kaggle kernel output after fixing base_model_name_or_path and inference_mode. Local validation overestimated leaderboard transfer."
+    },
+    {
+      "description": "may25_cycle04_lopure_adapter3_kernel_fixed",
+      "status": "COMPLETE",
+      "public_score": 0.84,
+      "notes": "Same lopure family as cycle 3. Adapter 3 had stronger local validation than root, but public score did not improve."
+    },
+    {
+      "description": "may25_cycle05_backtracking_v20_kernel_fixed",
+      "status": "COMPLETE",
+      "public_score": 0.85,
+      "notes": "Diversified to backtracking v20 via direct Kaggle kernel-output submission. Improved over lopure but did not beat Kien anchor."
+    }
+  ],
+  "key_findings": [
+    "Direct local and remote 3GB uploads repeatedly reached 100% then failed with connection reset or remote disconnected. Kernel-output submission with -k was the reliable path.",
+    "Lopure validation metrics did not transfer to the public leaderboard: root and adapter_3 both scored 0.84 despite validation values around 0.87-0.88.",
+    "Backtracking v20 scored 0.85 and is usable but not a new anchor.",
+    "Current best direction is not adapter averaging or simple public adapter swapping. The next direction should focus on Huikang-style task taxonomy, trace/error buckets, and targeted synthetic data."
+  ],
+  "candidate_sources_checked": [
+    "https://www.kaggle.com/code/lopure/is-adapter-ensembling-a-good-idea",
+    "https://www.kaggle.com/code/banwait13/nemotron-on-steroids",
+    "https://www.kaggle.com/code/ayomide2000/finding-nemo",
+    "https://www.kaggle.com/code/syu21125/nemotron-v65-submit",
+    "https://www.kaggle.com/code/jeffreypikeai/nemotron-supervised-tuning",
+    "https://www.kaggle.com/datasets/backtracking/nemotron-packages-adapter-v20"
+  ],
+  "sync_policy": {
+    "synced": "metadata, scripts, reports, kernel wrappers, validation JSON/logs",
+    "excluded": ["*.zip", "*.safetensors", "*.part", "*.tar.gz"]
+  }
+}

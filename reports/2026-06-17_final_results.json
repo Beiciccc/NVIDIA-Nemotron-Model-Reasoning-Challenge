@@ -1,0 +1,78 @@
+{
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "competitionTitle": "NVIDIA Nemotron Model Reasoning Challenge",
+  "deadlineUtc": "2026-06-15 23:59:00",
+  "snapshotUtc": "2026-06-17T10:24:20Z",
+  "team": {
+    "teamId": "15724952",
+    "teamName": "Kun Zhang",
+    "teamMemberUserNames": "beicicc"
+  },
+  "downloadedLeaderboardSnapshot": {
+    "path": "reports/final_leaderboard_2026-06-17/nvidia-nemotron-model-reasoning-challenge-publicleaderboard-2026-06-17T10:24:20.csv",
+    "rankField": 363,
+    "score": 0.864,
+    "totalRows": 4355,
+    "teamsWithHigherScore": 157,
+    "teamsTiedAtScore": 408,
+    "lastSubmissionDate": "2026-06-15 04:01:09",
+    "submissionCount": 123,
+    "note": "The downloaded Kaggle leaderboard CSV names this a publicleaderboard snapshot. Ties are numerous; both the CSV row rank and tie counts are preserved."
+  },
+  "visibleLeaderboardApiCheck": {
+    "pagePositionObserved": 106,
+    "scoreObserved": 0.86,
+    "isFrozen": true,
+    "note": "Kaggle's paged leaderboard API exposed a frozen view with different scoring/order than the downloaded CSV; the repo archives both source snapshots for audit."
+  },
+  "bestIndividualSubmissions": {
+    "highestPrivateScore": {
+      "ref": "53447857",
+      "description": "jun07_cycle11_mirza_best086_repeat_anchor",
+      "submittedAt": "2026-06-07 10:33:30.483000",
+      "publicScore": 0.86,
+      "privateScore": 0.864,
+      "source": "mirzayasirabdullah07/best-nvidia-nemotron-notebook-0-86 v16 repeat",
+      "scriptVersionId": 324524084
+    },
+    "highestPublicScoreTies": [
+      {
+        "ref": "53443877",
+        "description": "jun07_cycle04_mirza_best086_anchor",
+        "submittedAt": "2026-06-07 07:30:57.633000",
+        "publicScore": 0.864,
+        "privateScore": 0.86,
+        "source": "mirzayasirabdullah07/best-nvidia-nemotron-notebook-0-86 v16",
+        "scriptVersionId": 324524084
+      },
+      {
+        "ref": "53413835",
+        "description": "jun06_cycle06_mirza_model_notebook_anchor",
+        "submittedAt": "2026-06-06 07:06:19.893000",
+        "publicScore": 0.864,
+        "privateScore": 0.86,
+        "source": "mirzayasirabdullah07/nvidia-nemotron-model-notebook v3",
+        "scriptVersionId": 324497557
+      }
+    ]
+  },
+  "lateSubmissionNote": {
+    "dateUtc": "2026-06-16",
+    "refs": [
+      "53731282",
+      "53731452",
+      "53731498",
+      "53731543",
+      "53731587"
+    ],
+    "bestLatePublicScore": 0.54,
+    "bestLatePrivateScore": 0.568,
+    "note": "These were accepted and scored after the official deadline, but they are archived as late submissions and are not treated as official ranking improvements."
+  },
+  "publishedSolution": {
+    "path": "solutions/mirza_best086_anchor",
+    "status": "source-and-manifest-published",
+    "binarySubmissionZipStatus": "not-in-git",
+    "reason": "The scored artifact is a multi-GB adapter submission.zip; GitHub repository history rejects files over 100 MiB. The original public Kaggle slug now returns 404 through kernels pull, so the repo publishes the score manifest, source lineage, and current public Mirza notebooks instead."
+  }
+}

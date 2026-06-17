@@ -1,0 +1,18 @@
+{
+  "categories": [
+    "cryptarithm_deduce",
+    "cryptarithm_guess"
+  ],
+  "eval_rows_per_family": 8,
+  "families": [
+    "equation_symbolic"
+  ],
+  "grad_accum": 1,
+  "learning_rate": 5e-07,
+  "max_length": 512,
+  "max_steps": 16,
+  "scheduler": "constant",
+  "seed": 461,
+  "train_limit": 512,
+  "variant_id": "cycle01_cryptarithm16_lr5e7"
+}

@@ -1,0 +1,156 @@
+{
+  "competition": "nvidia-nemotron-model-reasoning-challenge",
+  "request": "submit 5 times using Kaggle GPU / Kaggle Code outputs",
+  "cycle_date_utc": "2026-06-06",
+  "latest_check_utc": "2026-06-06T08:16:33Z",
+  "target_public_score": 0.87,
+  "effective_non_error_submissions": 5,
+  "errors_not_counted": [
+    {
+      "source": "dedquoc/nvidia-nmrc-low-rank-svd-lora-adapter-fusion",
+      "message": "jun06_cycle02_dedquoc_svd_lora_fusion_probe",
+      "status": "not_submitted",
+      "error": "HTTP 403 Forbidden from Kaggle CreateCodeSubmission",
+      "notes": "No row appeared in the submission list, so it did not consume a submission count."
+    }
+  ],
+  "best_this_cycle": {
+    "descriptions": [
+      "jun06_cycle04_debatreya_best086_anchor",
+      "jun06_cycle05_mirza_best086_anchor",
+      "jun06_cycle06_mirza_model_notebook_anchor"
+    ],
+    "publicScore": 0.86,
+    "status": "COMPLETE"
+  },
+  "valid_submissions": [
+    {
+      "ref": 53407569,
+      "description": "jun06_cycle01_kuang_087_training_v91",
+      "submitted_utc": "2026-06-06T02:54:42.457Z",
+      "source": "kuangyicheng/nemotron-087-training v91",
+      "scriptVersionId": 323565056,
+      "status": "COMPLETE",
+      "publicScore": 0.62,
+      "notes": "Title-claimed 0.87 and had submission.zip, but public score was only 0.62. Avoid as a 0.87 path unless a new verified output appears."
+    },
+    {
+      "ref": 53409158,
+      "description": "jun06_cycle03_ayomide_finding_nemo_anchor",
+      "submitted_utc": "2026-06-06T04:16:39.933Z",
+      "source": "ayomide2000/finding-nemo v17",
+      "scriptVersionId": 324328568,
+      "status": "COMPLETE",
+      "publicScore": 0.85,
+      "notes": "Previously reproduced at 0.86 on 2026-06-04, but returned 0.85 today. Treat as unstable or version-sensitive."
+    },
+    {
+      "ref": 53410567,
+      "description": "jun06_cycle04_debatreya_best086_anchor",
+      "submitted_utc": "2026-06-06T05:11:55.330Z",
+      "source": "debatreyabiswas/nemotroncomp-best-0-86-solution-nvidia-under-5min v1",
+      "scriptVersionId": 324572187,
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "notes": "Stable 0.86 anchor; again reproduced the public 0.86 ceiling."
+    },
+    {
+      "ref": 53412124,
+      "description": "jun06_cycle05_mirza_best086_anchor",
+      "submitted_utc": "2026-06-06T06:06:07.037Z",
+      "source": "mirzayasirabdullah07/best-nvidia-nemotron-notebook-0-86 v16",
+      "scriptVersionId": 324524084,
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "notes": "Stable 0.86 anchor; no breakthrough."
+    },
+    {
+      "ref": 53413835,
+      "description": "jun06_cycle06_mirza_model_notebook_anchor",
+      "submitted_utc": "2026-06-06T07:06:19.893Z",
+      "source": "mirzayasirabdullah07/nvidia-nemotron-model-notebook v3",
+      "scriptVersionId": 324497557,
+      "status": "COMPLETE",
+      "publicScore": 0.86,
+      "notes": "Stable 0.86 anchor; completed the requested fifth non-error submission."
+    }
+  ],
+  "candidate_decisions": [
+    {
+      "source": "kuangyicheng/nemotron-087-training v91",
+      "decision": "avoid_until_new_verified_output",
+      "reason": "Submitted today and scored 0.62 despite 0.87 title."
+    },
+    {
+      "source": "dedquoc/nvidia-nmrc-low-rank-svd-lora-adapter-fusion",
+      "decision": "blocked_by_kaggle_403",
+      "reason": "Kaggle refused code submission with HTTP 403; no submission row created."
+    },
+    {
+      "source": "dhanushbe06/huikang-pure",
+      "decision": "not_submitted",
+      "reason": "File scan showed only huikang_pure.csv, no usable submission.zip."
+    },
+    {
+      "source": "mohamedamr992/cluster-experts-by-routing",
+      "decision": "not_submitted",
+      "reason": "File scan showed no usable output files."
+    },
+    {
+      "source": "adilshamim8/nvidia-nemotron-model-reasoning-challenge-101",
+      "decision": "avoid",
+      "reason": "Scored 0.47 on 2026-06-05 and appeared again in latest code; not worth another slot."
+    },
+    {
+      "source": "debatreyabiswas/nemotroncomp-best-0-86-solution-nvidia-under-5min v1",
+      "decision": "stable_anchor",
+      "reason": "Returned 0.86 again."
+    },
+    {
+      "source": "mirzayasirabdullah07/best-nvidia-nemotron-notebook-0-86 v16",
+      "decision": "stable_anchor",
+      "reason": "Returned 0.86 again."
+    },
+    {
+      "source": "mirzayasirabdullah07/nvidia-nemotron-model-notebook v3",
+      "decision": "stable_anchor",
+      "reason": "Returned 0.86 again."
+    },
+    {
+      "source": "ayomide2000/finding-nemo v17",
+      "decision": "weakened_anchor",
+      "reason": "Returned 0.85 today after prior 0.86 reproduction."
+    }
+  ],
+  "public_sources_checked": [
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/leaderboard",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/code",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion",
+    "https://www.kaggle.com/code/kuangyicheng/nemotron-087-training",
+    "https://www.kaggle.com/code/dedquoc/nvidia-nmrc-low-rank-svd-lora-adapter-fusion",
+    "https://www.kaggle.com/code/ayomide2000/finding-nemo",
+    "https://www.kaggle.com/code/debatreyabiswas/nemotroncomp-best-0-86-solution-nvidia-under-5min",
+    "https://www.kaggle.com/code/mirzayasirabdullah07/best-nvidia-nemotron-notebook-0-86",
+    "https://www.kaggle.com/code/mirzayasirabdullah07/nvidia-nemotron-model-notebook",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/704595",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/704491",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/704473",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/703479",
+    "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/702447"
+  ],
+  "process_notes": [
+    "The loop queried current submissions before submitting and waited for each PENDING row to finish before advancing.",
+    "The active script was scripts/run_jun06_submit5_loop.py.",
+    "Public Code, Discussion, and Leaderboard context were refreshed between completed submissions.",
+    "Two read-only subagents were started per the standing multi-agent rule but were closed after they remained unresponsive and local process resources became constrained.",
+    "No Kaggle ERROR rows occurred today. The dedquoc 403 occurred before row creation and was not counted.",
+    "The final independent check showed five 2026-06-06 COMPLETE submissions and no remaining loop process."
+  ],
+  "direction_notes": [
+    "The leaderboard still shows a 0.89 top team and many 0.87 teams, including fresh 2026-06-06 activity, so the target is real but not exposed by public code outputs.",
+    "Public notebook titles are unreliable score evidence: kuangyicheng/nemotron-087-training claimed 0.87 but scored 0.62.",
+    "The 0.86 public-output family remains reproducible through Debatreya and Mirza anchors, but it is not an improvement direction.",
+    "Ayomide finding-nemo is now weaker than expected and should be demoted unless retested with precise output version evidence.",
+    "The actual next direction should not be more blind public-output submissions. It should focus on locally controlled cryptarithm gains, deterministic packaging/eval controls, and adapter merge experiments with a local holdout or public proxy before spending submission slots."
+  ]
+}

@@ -1,0 +1,32 @@
+ref                                                                 title                                              author                    lastRunTime                 totalVotes  
+------------------------------------------------------------------  -------------------------------------------------  ------------------------  --------------------------  ----------  
+nguyenduongtrong/stage2-cc17b-pcc-d2048-parity-randomr-12k-batch64  stage2-cc17b-pcc-d2048-parity-randomr-12k-batch64  Nguyen Duong Trong        2026-05-23 17:16:34.753000           0  
+thunvng/stage2-cc17a-pcc-d2048-parity-bp-12k-batch64                stage2-cc17a-pcc-d2048-parity-bp-12k-batch64       Thuận Vương               2026-05-23 17:16:30.743000           0  
+dnglethnh/stage2-cc16b-vanilla1b-s14-modular-bp-12k-batch32         stage2-cc16b-vanilla1b-s14-modular-bp-12k-batch32  Dũng Lê Thành             2026-05-23 16:40:07.410000           0  
+leehoangquan006/stage2-cc16a-pcc-d2048-modular-bp-12k-batch64       stage2-cc16a-pcc-d2048-modular-bp-12k-batch64      Lê Hoàng Quân             2026-05-23 16:40:02.077000           0  
+leehoangquan006/stage2-cc8-pcc-d2048-modular-bp-fullft              stage2-cc8-pcc-d2048-modular-bp-fullft             Lê Hoàng Quân             2026-05-23 13:04:44.233000           0  
+scenerysunfireink/nemotron-comp-17-adapter-ensemble-fork            Nemotron COMP (17-adapter ensemble fork)           Scenery SunFireInk        2026-05-23 12:42:59.073000           2  
+tanluu/stage2-cc7-vanilla1b-s14-parity-random-r                     stage2-cc7-vanilla1b-s14-parity-random-r           tan luu                   2026-05-23 11:42:26.170000           0  
+hduong/stage2-cc7-vanilla1b-s14-parity-bp                           stage2-cc7-vanilla1b-s14-parity-bp                 Hoang Duong               2026-05-23 11:42:22.233000           0  
+nguyenduongtrong/stage2-cc7-vanilla1b-s14-modular-random-r          stage2-cc7-vanilla1b-s14-modular-random-r          Nguyen Duong Trong        2026-05-23 11:42:20.460000           0  
+thunvng/stage2-cc7-vanilla1b-s14-modular-bp                         stage2-cc7-vanilla1b-s14-modular-bp                Thuận Vương               2026-05-23 11:42:16.643000           0  
+dnglethnh/stage2-cc7-vanilla1b-s14-chain-random-r                   stage2-cc7-vanilla1b-s14-chain-random-r            Dũng Lê Thành             2026-05-23 11:42:14.857000           0  
+leehoangquan006/stage2-cc7-vanilla1b-s14-chain-bp                   stage2-cc7-vanilla1b-s14-chain-bp                  Lê Hoàng Quân             2026-05-23 11:42:11.693000           0  
+tanluu/stage2-cc6-pcc-d2048-parity-random-r                         stage2-cc6-pcc-d2048-parity-random-r               tan luu                   2026-05-23 10:07:11.353000           0  
+hduong/stage2-cc6-pcc-d2048-parity-bp                               stage2-cc6-pcc-d2048-parity-bp                     Hoang Duong               2026-05-23 10:07:07.043000           0  
+nguyenduongtrong/stage2-cc6-pcc-d2048-modp13-random-r               stage2-cc6-pcc-d2048-modp13-random-r               Nguyen Duong Trong        2026-05-23 10:07:04.757000           0  
+thunvng/stage2-cc6-pcc-d2048-modp13-bp                              stage2-cc6-pcc-d2048-modp13-bp                     Thuận Vương               2026-05-23 10:07:01.607000           0  
+dnglethnh/stage2-cc6-pcc-d2048-chain-random-r                       stage2-cc6-pcc-d2048-chain-random-r                Dũng Lê Thành             2026-05-23 10:06:58.850000           0  
+leehoangquan006/stage2-cc6-pcc-d2048-chain-bp                       stage2-cc6-pcc-d2048-chain-bp                      Lê Hoàng Quân             2026-05-23 10:06:55.467000           0  
+nguyenduongtrong/lmeval-gen-pcc-d2048-s17                           lmeval-gen-pcc-d2048-s17                           Nguyen Duong Trong        2026-05-23 04:26:39.467000           1  
+thunvng/lmeval-gen-xloop-d2048-s17                                  lmeval-gen-xloop-d2048-s17                         Thuận Vương               2026-05-23 04:26:35.503000           0  
+dnglethnh/lmeval-gen-vanilla-d2048-s17                              lmeval-gen-vanilla-d2048-s17                       Dũng Lê Thành             2026-05-23 04:26:32.200000           0  
+leehoangquan006/lmeval-gen-vanilla1b-s14                            lmeval-gen-vanilla1b-s14                           Lê Hoàng Quân             2026-05-23 04:26:28.917000           0  
+skripsipesolmokelar/final-predictor-aya-fix                         final_predictor_aya_fix                            skripsi pesol mo kelar    2026-05-23 03:55:08.487000           1  
+skripsipesolmokelar/final-predictor-llama-fix                       final_predictor_llama_fix                          skripsi pesol mo kelar    2026-05-23 03:52:52.850000           1  
+trungminh815/nemotron-audit-compare                                 nemotron audit_compare                             ngahahaha                 2026-05-23 02:47:34                  0  
+syu21125/nemotron-v62-submit-v3                                     Nemotron v62 submit v3                             SYU21125                  2026-05-23 01:07:23.910000           0  
+phmthanhlm24022379/pretrain-vanilla-d2048-50b-wsd-s19               pretrain-vanilla-d2048-50b-wsd-s19                  Phạm Thanh Lâm 24022379  2026-05-22 13:04:59.927000           0  
+phmthanhlm24022379/pretrain-xloop-d2048-n4-50b-wsd-s19              pretrain-xloop-d2048-n4-50b-wsd-s19                 Phạm Thanh Lâm 24022379  2026-05-22 12:44:33.093000           0  
+trungminh815/nemotron-equation-numeric-oracle-trace-train-v2        nemotron equation_numeric_oracle_trace_train_v2    ngahahaha                 2026-05-23 03:49:38.183000           1  
+aamir28/nemotron-my-training-notebook                               nemotron-my-training-notebook                      Muhammad Aamir            2026-05-22 02:26:43.007000           0  

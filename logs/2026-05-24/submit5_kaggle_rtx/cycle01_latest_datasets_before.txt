@@ -1,0 +1,22 @@
+/Users/beici/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+ref                                                        title                                                  size  lastUpdated                 downloadCount  voteCount  usabilityRating  
+---------------------------------------------------------  ----------------------------------------------  -----------  --------------------------  -------------  ---------  ---------------  
+williamlu931/vcars-offline-wheels                          vcars-offline-wheels                             3785739807  2026-05-23 00:59:12                    16          0  0.1875           
+danielsamoylov/nemotron-corpus-bit-serial                  Nemotron corpus (bit-serial)                       50935005  2026-05-21 20:43:38                    15          0  0.25             
+sethmoudry/nemotron-sft-v32-adapter                        nemotron-sft-v32-adapter                         3273307918  2026-05-20 12:34:28                    29          0  0.25             
+parijit/nemotron-corpus                                    nemotron-corpus                                    49110076  2026-05-19 21:26:45                    12          0  0.125            
+atahalam/tonghuikang-0-87-nemotron-dataset                 tonghuikang-0.87-nemotron-dataset                 211762165  2026-05-18 16:12:53                   117          0  0.375            
+prajeeta/nemotron-prep-prats                               nemotron-prep-prats                              7999544651  2026-05-08 08:31:24.583000              2          1  0.29411766       
+charwisreno/nemotron-master-reasoning-corpus               Master Reasoning Corpus                         19552621196  2026-05-07 02:56:16.697000              5          0  0.23529412       
+kevpan096/nemotron-reasoning-competition                   nemotron-reasoning-competition                      7480957  2026-05-05 01:47:02.373000             28          0  0.23529412       
+mohammedtanvir/nemotron-reasoning-traces                   Nemotron Reasoning Traces                          12824713  2026-04-27 09:50:12                    32          0  0.29411766       
+samvalladares/huikang-nemotron-artifacts                   Nemotron Huikang Artifacts                       1495393103  2026-04-18 00:43:52.027000             69          0  0.5              
+samiulislam180041221/nemotron-nano-bf16-b1                 Nemotron Nano 30B BF16 B1 config+shards1-3      11866569450  2026-04-10 06:53:03                     0          0  0.25             
+damndeepesh/nemotron-tets                                  Nemotron-tets                                    9896797312  2026-04-08 01:50:55.607000              0          0  0.3125           
+aaryanverma/nemotron-competition-packages                  nemotron competition packages                    7814244323  2026-04-05 06:19:28.637000              0          0  0.375            
+toshikitsuchiya/nemotron-nxp-lora-adapter                  Nemotron NXP LoRA Adapter                        3143847971  2026-04-01 12:13:26.513000             31          0  0.25             
+zhenyang0405/nemotron-packages                             nemotron-packages                                7071570087  2026-03-27 23:47:00                     0          0  0.3125           
+itskshivam/nemotron-equation-candidate-critique-router-v1  Nemotron Equation Candidate Critique Router v1      2860712  2026-03-25 06:46:38.347000             10          0  0.23529412       
+jcole75/nemotron-cascade-2-30b-a3b-fp8                     Nemotron Cascade 2 30B A3B FP8                  26831667747  2026-03-24 03:12:09.417000              0          0  0.125            
+harshalsanjayborse/nemotron-offline-suite-full             HARSHAL                                         51243928822  2026-03-20 18:06:11.823000              0          0  0.125            
