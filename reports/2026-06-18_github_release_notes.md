@@ -5,6 +5,7 @@ This release marks the end of our NVIDIA Nemotron Model Reasoning Challenge run.
 - Competition deadline: `2026-06-15 23:59:00` UTC.
 - Team: `Kun Zhang` / `beicicc`.
 - Final displayed Kaggle result: Solo Silver Medal, rank `101 / 4182`, score `0.860`.
+- Paged Kaggle leaderboard/API snapshot: `reports/2026-06-18_leaderboard_api_page1.csv`.
 - Downloaded leaderboard CSV audit snapshot: rank field `347`, score `0.864`.
 - Tie context in the downloaded CSV: 148 teams scored higher; 387 teams were tied at `0.864`.
 - Best individual submission by private score: ref `53447857`, `jun07_cycle11_mirza_best086_repeat_anchor`, public `0.860`, private `0.864`.

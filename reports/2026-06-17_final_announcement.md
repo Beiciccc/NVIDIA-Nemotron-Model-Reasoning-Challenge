@@ -6,17 +6,27 @@ The competition is closed. Kaggle reports the deadline as `2026-06-15 23:59:00` 
 
 Team: `Kun Zhang` / `beicicc`
 
-Downloaded leaderboard snapshot: `reports/final_leaderboard_2026-06-17/nvidia-nemotron-model-reasoning-challenge-publicleaderboard-2026-06-17T10:24:20.csv`
+Final displayed Kaggle result: Solo Silver Medal, rank `101 / 4182`, score `0.860`.
+
+Paged Kaggle leaderboard/API snapshot: `reports/2026-06-18_leaderboard_api_page1.csv`
 
 | Metric | Value |
 | --- | ---: |
-| Leaderboard CSV rank field | 363 / 4355 |
-| Leaderboard CSV score | 0.864 |
-| Teams with higher score | 157 |
-| Teams tied at 0.864 | 408 |
+| Final displayed rank | 101 / 4182 |
+| Final displayed score | 0.860 |
+| Medal | Solo Silver |
 | Submission count | 123 |
 
-The paged Kaggle leaderboard API also exposed a frozen view where the team appeared at observed page position 106 with score `0.860`. Both source snapshots are kept because Kaggle exposes different post-close views through download and API endpoints.
+Downloaded leaderboard snapshot: `reports/final_leaderboard_2026-06-18/nvidia-nemotron-model-reasoning-challenge-publicleaderboard-2026-06-17T23:06:02.csv`
+
+| Metric | Value |
+| --- | ---: |
+| Leaderboard CSV rank field | 347 |
+| Leaderboard CSV score | 0.864 |
+| Teams with higher score | 148 |
+| Teams tied at 0.864 | 387 |
+
+Both source snapshots are kept because Kaggle exposes different post-close views through download and API endpoints.
 
 ## Best scored work
 

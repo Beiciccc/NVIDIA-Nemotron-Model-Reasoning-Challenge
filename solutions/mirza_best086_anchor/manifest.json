@@ -2,6 +2,12 @@
   "name": "mirza_best086_anchor",
   "competition": "nvidia-nemotron-model-reasoning-challenge",
   "status": "published-source-and-score-manifest",
+  "finalDisplayedKaggleResult": {
+    "medal": "Solo Silver Medal",
+    "rank": 101,
+    "totalTeams": 4182,
+    "score": 0.86
+  },
   "bestPrivateSubmission": {
     "ref": "53447857",
     "description": "jun07_cycle11_mirza_best086_repeat_anchor",

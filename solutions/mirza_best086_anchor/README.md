@@ -2,6 +2,8 @@
 
 This directory publishes the highest-scoring solution line from our NVIDIA Nemotron Model Reasoning Challenge run.
 
+Final displayed competition result: Solo Silver Medal, rank `101 / 4182`, score `0.860`.
+
 ## Scores
 
 Best private-score submission:

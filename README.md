@@ -6,13 +6,21 @@ Remote-first Kaggle workflow for the NVIDIA Nemotron Model Reasoning Challenge.
 
 The competition is complete. Kaggle reports the official deadline as `2026-06-15 23:59:00` UTC.
 
+Final displayed Kaggle result:
+
+- Team: `Kun Zhang` / `beicicc`.
+- Medal: Solo Silver Medal.
+- Rank: `101 / 4182`.
+- Final displayed score: `0.860`.
+
 Final archive files:
 
 - `reports/2026-06-17_final_announcement.md`
 - `reports/2026-06-17_final_results.json`
+- `reports/2026-06-18_github_release_notes.md`
 - `solutions/mirza_best086_anchor/`
 
-Team `Kun Zhang` / `beicicc` appears in the downloaded leaderboard snapshot with rank field `363 / 4355` and score `0.864`. In that snapshot, 157 teams scored higher and 408 teams were tied at `0.864`.
+Team `Kun Zhang` / `beicicc` appears in the final paged Kaggle leaderboard/API snapshot at page position `101 / 4182` with score `0.860`. The separately downloaded public leaderboard CSV snapshot reports rank field `347` and score `0.864`; in that CSV, 148 teams scored higher and 387 teams were tied at `0.864`. Both post-close snapshots are archived because Kaggle exposes different final views through different endpoints.
 
 The best individual submission by private score was:
 

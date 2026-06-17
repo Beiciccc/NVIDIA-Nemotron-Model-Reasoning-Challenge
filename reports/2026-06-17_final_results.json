@@ -2,26 +2,36 @@
   "competition": "nvidia-nemotron-model-reasoning-challenge",
   "competitionTitle": "NVIDIA Nemotron Model Reasoning Challenge",
   "deadlineUtc": "2026-06-15 23:59:00",
-  "snapshotUtc": "2026-06-17T10:24:20Z",
+  "snapshotUtc": "2026-06-18T00:00:00Z",
   "team": {
     "teamId": "15724952",
     "teamName": "Kun Zhang",
     "teamMemberUserNames": "beicicc"
   },
+  "finalDisplayedKaggleResult": {
+    "medal": "Solo Silver Medal",
+    "rank": 101,
+    "totalTeams": 4182,
+    "score": 0.86,
+    "source": "Kaggle paged leaderboard/API snapshot plus final Kaggle UI update",
+    "path": "reports/2026-06-18_leaderboard_api_page1.csv"
+  },
   "downloadedLeaderboardSnapshot": {
-    "path": "reports/final_leaderboard_2026-06-17/nvidia-nemotron-model-reasoning-challenge-publicleaderboard-2026-06-17T10:24:20.csv",
-    "rankField": 363,
+    "path": "reports/final_leaderboard_2026-06-18/nvidia-nemotron-model-reasoning-challenge-publicleaderboard-2026-06-17T23:06:02.csv",
+    "rankField": 347,
     "score": 0.864,
-    "totalRows": 4355,
-    "teamsWithHigherScore": 157,
-    "teamsTiedAtScore": 408,
+    "totalRows": 4183,
+    "teamsWithHigherScore": 148,
+    "teamsTiedAtScore": 387,
     "lastSubmissionDate": "2026-06-15 04:01:09",
     "submissionCount": 123,
     "note": "The downloaded Kaggle leaderboard CSV names this a publicleaderboard snapshot. Ties are numerous; both the CSV row rank and tie counts are preserved."
   },
   "visibleLeaderboardApiCheck": {
-    "pagePositionObserved": 106,
+    "path": "reports/2026-06-18_leaderboard_api_page1.csv",
+    "pagePositionObserved": 101,
     "scoreObserved": 0.86,
+    "totalTeamsObserved": 4182,
     "isFrozen": true,
     "note": "Kaggle's paged leaderboard API exposed a frozen view with different scoring/order than the downloaded CSV; the repo archives both source snapshots for audit."
   },
